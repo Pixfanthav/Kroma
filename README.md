@@ -20,6 +20,8 @@ Kroma is an Android app that runs image generation models on the NPU of Snapdrag
 * txt2img, img2img, inpainting, outpainting and ×2 upscale. With FLUX.2 Klein you can edit with up to 3 reference pictures.
 * Prompts written in Korean, Japanese, Chinese or Russian can be translated to English on the phone. The app is available in English, Korean, Simplified and Traditional Chinese, Japanese, Russian, Spanish and Portuguese.
 
+![The app](docs/screens.jpg)
+
 ## Models
 
 You choose the models to download inside the app, and it shows the size before downloading.
