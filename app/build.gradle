@@ -1,0 +1,83 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'dev.kroma.open'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "dev.kroma.open"
+        minSdk 31          // Build.SOC_MODEL (chip detection); every supported phone shipped with 13+
+        targetSdk 35
+        versionCode 900
+        versionName "0.9.0"
+        ndk { abiFilters 'arm64-v8a' }
+    }
+    // the release key: keystore.properties beside settings.gradle (storeFile, storePassword, keyAlias, keyPassword), never in the
+    // repository. Every release is signed with it, so an update installs over the last one and keeps the downloaded models
+    def ksFile = rootProject.file("keystore.properties")
+    signingConfigs {
+        if (ksFile.exists()) {
+            release {
+                def p = new Properties(); ksFile.withInputStream { p.load(it) }
+                storeFile file(p["storeFile"]); storePassword p["storePassword"]; keyAlias p["keyAlias"]; keyPassword p["keyPassword"]
+            }
+        }
+    }
+    buildTypes {
+        // the debug build signed with the same key where it is at hand, so a debug and a release build install over each other and
+        // keep the models (a different key means uninstalling, and that deletes them). Elsewhere it keeps the debug key.
+        debug {
+            if (ksFile.exists()) signingConfig signingConfigs.release
+        }
+        release {
+            if (ksFile.exists()) signingConfig signingConfigs.release
+        }
+    }
+
+    // Two editions of the same app. "github" is the one in Releases. "store" is for an app store: it has no setting that
+    // shows pictures the content filter flagged, and no "close other apps" (so no permission to end other apps' processes).
+    buildFeatures { buildConfig true }
+    flavorDimensions "edition"
+    productFlavors {
+        github {
+            dimension "edition"
+            buildConfigField "boolean", "ADULT_OPTION", "true"
+            buildConfigField "boolean", "CLOSE_APPS", "true"
+            buildConfigField "boolean", "REPORT_LINK", "false"
+        }
+        store {
+            dimension "edition"
+            buildConfigField "boolean", "ADULT_OPTION", "false"
+            buildConfigField "boolean", "CLOSE_APPS", "false"
+            // Play's AI-generated content policy: a way to report a generated picture from inside the app
+            buildConfigField "boolean", "REPORT_LINK", "true"
+        }
+    }
+
+    // The DSP (FastRPC) loads libkengine_skel_<arch>.so from a real on-disk path, not from inside
+    // base.apk: force extraction so the skels land in nativeLibraryDir.
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.13.1'   // FileProvider: sharing a picture or a bug report
+    // ONNX Runtime on the CPU: the content classifier, the tag matcher, Krea 2's small CPU parts and the upscaler's fallback
+    implementation 'com.microsoft.onnxruntime:onnxruntime-android:1.26.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'      // the platform's org.json is a stub in local unit tests
+}

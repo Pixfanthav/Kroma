@@ -1,0 +1,1 @@
+{"first.onnx": {"size": 1597802, "params": {"first.weight": [94, 64, 6144, 1, 0], "first.bias": [1573094, 6144, 1, 0, 0]}}, "last.onnx": {"size": 1649629, "params": {"last.linear.weight": [76202, 6144, 64, 1, 0], "last.linear.bias": [1649216, 64, 1, 0, 0], "last.norm.scale": [51276, 6144, 1, 0, 1]}}}

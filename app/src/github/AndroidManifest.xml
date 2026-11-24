@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- the edition in Releases only; the store edition has neither -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- "Close other apps" on the main screen: asks the system to end other apps' background processes, for memory -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+</manifest>

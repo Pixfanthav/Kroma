@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 繁體中文. Translated by the author, not checked by a native speaker: corrections are welcome.
+     %1$s, %2$s ... are values the app fills in; keep them, in any order. Licence wording is not in these files:
+     it is shown in English in every language. -->
+<resources>
+    <string name="i_have_read_and_agree">"我已閱讀並同意以上內容。"</string>
+    <string name="continue_button">"繼續"</string>
+    <string name="krea_2_turbo_unquantized_fp16">"以 fp16、Q8、Q4 等格式，只在這支手機的 NPU 上執行圖片模型。你輸入的文字和產生的圖片不會離開裝置，網路只用於下載模型檔案。"</string>
+    <string name="before_you_start">"開始之前"</string>
+    <string name="terms_english_only">"以下條款僅以英文顯示。"</string>
+    <string name="read_the_full_license_and">"查看完整的授權與聲明"</string>
+    <string name="this_app">"本 App"</string>
+    <string name="kroma_is_free_software_under">"Kroma 是依 GNU 通用公共授權條款第 3 版發布的自由軟體。"</string>
+    <string name="models_and_components">"模型與元件"</string>
+    <string name="krea_2_model_license">"Krea 2 模型授權"</string>
+    <string name="krea_ai_s_license_for">"Krea.ai 為 Krea 2 模型訂定的授權。它適用於模型，而不是本 App 的原始碼。"</string>
+    <string name="anima_model_license">"Anima 模型授權"</string>
+    <string name="circlestone_labs_license_for_the">"CircleStone Labs 為 Anima 模型訂定的授權。它適用於模型，而不是本 App 的原始碼。"</string>
+    <string name="this_phone_s_chip_is">"不支援這支手機的晶片（%1$s）。Kroma 可在搭載 Hexagon v73、v75、v79 或 v81 NPU 的 Snapdragon 上執行：8 Gen 2、8s Gen 3、7+ Gen 3（v73），8 Gen 3（v75），8 Elite（v79），8 Elite Gen 5（v81）。引擎針對每一代 NPU 分別建置。"</string>
+    <string name="send_the_log">"傳送記錄檔"</string>
+    <string name="download_on_wi_fi_only">"僅在 Wi-Fi 下下載"</string>
+    <string name="free_storage">"可用空間 %1$s"</string>
+    <string name="to_download_free_storage">"需下載 %1$s  ·  可用空間 %2$s"</string>
+    <string name="get_the_model_list">"取得模型清單"</string>
+    <string name="download">"下載 %1$s"</string>
+    <string name="apply">"套用"</string>
+    <string name="done">"完成"</string>
+    <string name="downloaded">"已下載 · "</string>
+    <string name="not_downloaded">"未下載 · "</string>
+    <string name="delete">"刪除"</string>
+    <string name="delete_from_this_phone">"要從這支手機刪除 %1$s 嗎？"</string>
+    <string name="frees_it_can_be_downloaded">"將釋出 %1$s 空間。之後可以重新下載。"</string>
+    <string name="cancel">"取消"</string>
+    <string name="models_pick_at_least_one">"模型  ·  至少選擇一個"</string>
+    <string name="options">"選項"</string>
+    <string name="always_included">"必要下載項目"</string>
+    <string name="shared_files">"共用檔案"</string>
+    <string name="reading_the_model_list">"正在載入模型清單…"</string>
+    <string name="failed">"失敗："</string>
+    <string name="not_on_wi_fi">"未連上 Wi-Fi。"</string>
+    <string name="remove_from_this_phone">"要從這支手機移除嗎？"</string>
+    <string name="frees_they_can_be_downloaded">"將釋出 %1$s 空間。之後可以重新下載。"</string>
+    <string name="remove">"移除"</string>
+    <string name="pause">"暫停"</string>
+    <string name="not_enough_storage_to_download">"儲存空間不足：需下載 %1$s，可用 %2$s。"</string>
+    <string name="about_min_left">" · 約剩 %1$s 分鐘"</string>
+    <string name="models_are_ready">"模型已就緒"</string>
+    <string name="paused_press_again_to_resume">"已暫停。再按一次會從中斷處繼續下載。"</string>
+    <string name="models">"模型管理"</string>
+    <string name="beta">"  ·  測試版"</string>
+    <string name="kroma_downloads_the_unquantized_fp16">"Kroma 下載模型。中斷後可續傳，每個檔案都會驗證。"</string>
+    <string name="back">"返回"</string>
+    <string name="describe_the_picture_in_english">"請用英文描述圖片，或翻譯後輸入"</string>
+    <string name="length">"長度 %1$s / %2$s"</string>
+    <string name="length_too_long_the_end">"長度 %1$s / %2$s · 過長：結尾部分不會反映到圖片中"</string>
+    <string name="steps">"步數 %1$s"</string>
+    <string name="seed">"種子"</string>
+    <string name="much_slower_if_the_screen">"執行中鎖定螢幕會明顯變慢"</string>
+    <string name="sending_the_log_helps_even">"即使一切正常，傳送記錄檔也很有幫助：裡面只有耗時，沒有你的提示詞。點按傳送。"</string>
+    <string name="generate">"產生"</string>
+    <string name="stopping_after_this_block">"將在目前區塊結束後停止…"</string>
+    <string name="write_a_prompt_first">"請先輸入提示詞。"</string>
+    <string name="is_not_runnable_in_this">"此版本尚無法執行 %1$s。"</string>
+    <string name="share">"分享"</string>
+    <string name="upscale_2">"×2 放大"</string>
+    <string name="settings">"設定"</string>
+    <string name="aspect_ratio">"長寬比"</string>
+    <string name="m_s">"%1$s分%2$s秒"</string>
+    <string name="s">"%1$s秒"</string>
+    <string name="stop">"停止"</string>
+    <string name="battery_at_stopped_charge_the">"電量 %1$s%%，已停止產生。請充電後重新開始。"</string>
+    <string name="picture">"第 %1$s/%2$s 張 · "</string>
+    <string name="step_about_left">"步驟 %1$s/%2$s · %3$s%% · 約剩 %4$s"</string>
+    <string name="stopped_nothing_saved_under_half">"已停止。未儲存：完成的步數不到一半。"</string>
+    <string name="decoding">"正在解碼…"</string>
+    <string name="done_in_seed">"完成，耗時 %1$s · 種子 %2$s"</string>
+    <string name="stopped">"已停止。"</string>
+    <string name="play_the_song">"播放歌曲"</string>
+    <string name="stop_the_song">"停止播放"</string>
+    <string name="error">"錯誤："</string>
+    <string name="nsettings_send_the_log">"\n設定 → 傳送記錄檔。"</string>
+    <string name="picture_s_saved">"已儲存 %1$s 張圖片"</string>
+    <string name="upscaling">"正在放大 %1$s/%2$s"</string>
+    <string name="upscaled_to">"已放大到 %1$s×%2$s"</string>
+    <string name="adult_content_on">"成人內容：開"</string>
+    <string name="adult_content_off">"成人內容：關"</string>
+    <string name="language">"語言"</string>
+    <string name="license_and_notices">"授權與聲明"</string>
+    <string name="year_of_birth">"出生年份"</string>
+    <string name="i_am_an_adult">"我已成年。"</string>
+    <string name="show_adult_content">"顯示成人內容"</string>
+    <string name="next">"下一步"</string>
+    <string name="enter_your_year_of_birth">"請輸入出生年份。"</string>
+    <string name="this_is_available_to_adults">"僅限成年人使用。"</string>
+    <string name="tick_i_am_an_adult">"請勾選「我已成年」。"</string>
+    <string name="confirm">"確認"</string>
+    <string name="pictures_the_classifier_rates_as">"分類器判定為成人內容的圖片也會顯示並儲存。涉及未成年人的內容仍會被封鎖。你須為自己產生的內容負責。"</string>
+    <string name="turn_on">"開啟"</string>
+    <string name="preparing">"準備中…"</string>
+    <string name="progress">"進度"</string>
+    <string name="kroma_is_working">"Kroma 正在執行"</string>
+    <string name="prompt_too_long_only_the">"提示詞過長：%2$s 個 token 中只使用前 %1$s 個"</string>
+    <string name="prompt_refused_nreason_it_combines">"提示詞已被拒絕。\n原因：其中同時包含未成年人與性內容。使用政策禁止任何涉及未成年人的性內容，沒有例外。\n"</string>
+    <string name="ratio_not_available">"%1$s 不支援此長寬比。"</string>
+    <string name="save">"儲存"</string>
+    <string name="save_n">"全部儲存（%1$s）"</string>
+    <string name="saved_to_gallery">"已將 %1$s 張圖片儲存到 Pictures/Kroma。"</string>
+    <string name="not_saved_yet">"尚未儲存，按「儲存」即可保留。"</string>
+    <string name="picture_s_ready">"%1$s 張圖片已完成"</string>
+    <string name="auto_save_on">"自動儲存到相簿：開"</string>
+    <string name="auto_save_off">"自動儲存到相簿：關"</string>
+    <string name="uninstall_deletes_models">"模型儲存在 App 內部，解除安裝 Kroma 時模型也會一併刪除。"</string>
+    <string name="free_memory">"可用記憶體 %1$s"</string>
+    <string name="close_other_apps">"關閉其他 App"</string>
+    <string name="memory_freed">"可用記憶體 %1$s → %2$s"</string>
+    <string name="more_memory_is_faster">"可用記憶體越多，常駐的模型部分越多，出圖越快。"</string>
+    <string name="lora_off">"LoRA：無"</string>
+    <string name="lora_on">"LoRA：%1$s · %2$s"</string>
+    <string name="no_lora">"不使用 LoRA"</string>
+    <string name="add_a_lora_file">"新增 LoRA 檔案"</string>
+    <string name="lora_help">"請選擇適用於主畫面所選模型的 .safetensors LoRA 檔案，轉換會在這支手機上完成。長按名稱即可刪除。"</string>
+    <string name="converting_the_lora">"正在轉換 LoRA…"</string>
+    <string name="preparing_the_lora">"正在準備 LoRA…"</string>
+    <string name="lora_added">"已新增 LoRA：%1$s · %2$s 層"</string>
+    <string name="lora_left_out">" · %1$s 層無法套用，已略過"</string>
+    <string name="lora_plain_only">"此 LoRA 格式無法在手機上轉換。"</string>
+    <string name="report_this_picture">"檢舉這張圖片"</string>
+    <string name="report_include_prompt">"一併傳送我的提示詞"</string>
+    <string name="report_what_is_sent">"當模型產生了不該產生的內容時使用。App 會準備一段簡短文字，包含模型、尺寸、步數、種子和內容過濾器分數，由你選擇傳送到哪裡。不會附上圖片本身。"</string>
+    <string name="find_a_lora">"線上尋找 LoRA"</string>
+    <string name="lora_browse_help">"來自 Civitai 或 Hugging Face、適用於此模型的 LoRA。點按即可下載並轉換。每個 LoRA 都有各自的授權與使用條款，請查看其頁面。"</string>
+    <string name="search">"搜尋"</string>
+    <string name="searching">"搜尋中…"</string>
+    <string name="nothing_found">"沒有搜尋結果。"</string>
+    <string name="more">"更多"</string>
+    <string name="sort_downloads">"下載最多"</string>
+    <string name="sort_rating">"評分最高"</string>
+    <string name="sort_newest">"最新"</string>
+    <string name="lora_hit_line">"下載 %1$d 次 · %2$d MB · %3$s"</string>
+    <string name="lora_download_ask">"要下載 %1$d MB 並在這支手機上轉換嗎？作者：%2$s。"</string>
+    <string name="lora_downloading">"正在下載 LoRA：%1$d / %2$d MB"</string>
+    <string name="lora_needs_login">"作者要求登入 Civitai 才能下載此檔案。請用瀏覽器下載，再使用「新增 LoRA 檔案」。"</string>
+    <string name="open_the_page">"開啟頁面"</string>
+    <string name="download_it">"下載"</string>
+    <string name="lora_login_needed">"需要登入"</string>
+    <string name="civitai_key">"Civitai API 金鑰"</string>
+    <string name="civitai_key_off">"Civitai API 金鑰：未設定"</string>
+    <string name="civitai_key_on">"Civitai API 金鑰：已設定"</string>
+    <string name="civitai_key_hint">"API 金鑰"</string>
+    <string name="civitai_key_help">"部分作者只允許登入的使用者下載。在 Civitai 帳號設定中建立 API 金鑰並貼到這裡，這些檔案也能在 App 內下載。金鑰只儲存在這支手機上，只會傳送給 civitai.com。清空此欄即可刪除。"</string>
+    <string name="picture_shown_as_is">"圖片已照原樣顯示。要保留請按儲存。"</string>
+    <string name="advanced_off">"擴充模式：關"</string>
+    <string name="advanced_on">"擴充模式：開"</string>
+    <string name="advanced_settings">"擴充設定"</string>
+    <string name="adv_help">"適用於目前模型的設定。預設值與關閉此模式時相同。"</string>
+    <string name="adv_sampler">"取樣器"</string>
+    <string name="adv_scheduler">"排程器"</string>
+    <string name="adv_shift">"Shift %1$s"</string>
+    <string name="adv_cfg">"CFG %1$s"</string>
+    <string name="adv_cfg_help">"大於 1 時會套用下方的反向提示詞，每一步執行模型兩次，產生時間約為兩倍。Anima Turbo 以 1 為基準製作。"</string>
+    <string name="adv_reset">"恢復預設值"</string>
+    <!-- moved from the code's inline translations (2026-11-20) -->
+    <string name="krea_turbo">"Krea Turbo"</string>
+    <string name="reference_pictures_edit_d" formatted="false">"參考圖片（編輯）：%d 張"</string>
+    <string name="reference_pictures_edit_none_up_to">"參考圖片（編輯）：無（最多 3 張）"</string>
+    <string name="start_image_set">"起始圖片：已設定"</string>
+    <string name="start_image_none_text_to_image">"起始圖片：無（文字生成圖片）"</string>
+    <string name="no_model_on_this_phone_yet">"這支手機上還沒有模型。下載一個即可開始繪圖。"</string>
+    <string name="download_models">"下載模型"</string>
+    <string name="lyrics_in_parts_marked_verse_chorus">"歌詞（用 [Verse]、[Chorus]、[Bridge] 等標出段落）"</string>
+    <string name="original">"原文"</string>
+    <string name="translate">"翻譯"</string>
+    <string name="the_translation_model_is_not_installed">"未安裝翻譯模型：設定 → 模型 → 翻譯（PLaMo）。"</string>
+    <string name="translating_the_prompt_plamo">"正在翻譯提示詞（PLaMo）…"</string>
+    <string name="fixed">"固定"</string>
+    <string name="a_song_style_above_lyrics_below">"歌曲：上面寫風格，下面寫歌詞"</string>
+    <string name="style_tags_e_g_pop_female">"風格標籤，例如 pop, female vocal, piano, upbeat"</string>
+    <string name="pictures">"張數"</string>
+    <string name="presets">"預設集"</string>
+    <string name="stopping_at_the_end_of_this">"將在目前步驟結束後停止…"</string>
+    <string name="write_the_style_or_the_lyrics">"請先輸入風格或歌詞。"</string>
+    <string name="mask_painted">"遮罩：已繪製"</string>
+    <string name="mask_none_the_whole_picture">"遮罩：無，整張圖"</string>
+    <string name="mode_outpaint">"模式：外擴"</string>
+    <string name="mode_inpaint">"模式：局部重繪"</string>
+    <string name="change_s" formatted="false">"變更程度：%s"</string>
+    <string name="auto_2">"自動"</string>
+    <string name="t_30_s">"30 秒"</string>
+    <string name="t_1_min">"1 分鐘"</string>
+    <string name="t_2_min">"2 分鐘"</string>
+    <string name="t_3_min">"3 分鐘"</string>
+    <string name="t_4_min">"4 分鐘"</string>
+    <string name="length_of_an_instrumental_a_song">"純音樂長度（有歌詞時隨歌詞結束）"</string>
+    <string name="songs">"首數"</string>
+    <string name="use_as_start">"用作起始圖"</string>
+    <string name="this_picture_is_the_reference_now">"此圖已設為參考：請輸入要改的內容"</string>
+    <string name="this_picture_is_the_start_image">"此圖已設為起始圖（圖生圖）"</string>
+    <string name="battery">"電池"</string>
+    <string name="no_kroma_settings_in_that_picture">"這張圖片沒有 Kroma 設定資訊（可能在別的 App 產生，或編輯後重新儲存過）。"</string>
+    <string name="sdxl_1_0_license_creativeml_open">"SDXL 1.0 授權（CreativeML Open RAIL++-M）"</string>
+    <string name="flux_2_klein_9b_license_flux">"FLUX.2 [klein] 9B 授權（FLUX Non-Commercial License）"</string>
+    <string name="plamo_community_license_translation">"PLaMo 社群授權（翻譯）"</string>
+    <string name="s_has_a_hexagon_npu_but" formatted="false">"%s 具備 Hexagon NPU，但比同世代的 8 Gen 2 小（高速記憶體較少，矩陣單元可能未啟用 fp16）。Kroma 引擎可能暫時無法在這顆晶片上執行。傳送記錄檔可以準確了解這顆晶片的規格，支援它需要這些資訊。"</string>
+    <string name="ui_preview_debug_build_nothing_is">"UI 預覽（偵錯版，不會產生圖片）"</string>
+    <string name="include_the_built_in_model_untick">"包含內建模型（只用自己匯入的微調模型時取消勾選）"</string>
+    <string name="q8_about_half_the_size_close">"Q8（約一半大小，接近 FP16）"</string>
+    <string name="q4_about_a_quarter_lower_quality">"Q4（約四分之一大小，品質下降）"</string>
+    <string name="fp16_as_made_default">"FP16（原樣，預設）"</string>
+    <string name="weights">"權重："</string>
+    <string name="press_the_button_below_to_read">"請按下方按鈕取得模型清單。"</string>
+    <string name="later">"稍後下載"</string>
+    <string name="brush_s" formatted="false">"筆刷：%s"</string>
+    <string name="small">"小"</string>
+    <string name="medium">"中"</string>
+    <string name="large">"大"</string>
+    <string name="eraser">"橡皮擦"</string>
+    <string name="paint">"塗抹"</string>
+    <string name="paint_over_what_to_redraw">"塗抹要重畫的地方。"</string>
+    <string name="clear">"清除"</string>
+    <string name="no_mask">"不用遮罩"</string>
+    <string name="ui_preview_this_phone_cannot_run">"UI 預覽：這支手機無法執行模型，因此不會產生圖片。"</string>
+    <string name="no_model_on_this_phone_yet_2">"手機上還沒有模型：請先透過上方按鈕或設定下載模型。"</string>
+    <string name="merging_the_lora_into_the_weights" formatted="false">"正在將 LoRA 合併到權重：第 %d / %d 塊"</string>
+    <string name="reading_the_start_image">"正在讀取起始圖片"</string>
+    <string name="reading_the_reference_pictures">"正在讀取參考圖片…"</string>
+    <string name="writing_the_score">"正在寫樂譜"</string>
+    <string name="composing">"正在作曲"</string>
+    <string name="rendering_the_sound">"正在產生音訊"</string>
+    <string name="decoding_the_audio">"正在解碼音訊"</string>
+    <string name="done_s_seed_d_saved_to_2" formatted="false">"完成 %s · 種子 %d · 已儲存到 Music/Kroma"</string>
+    <string name="translated_by_plamo_s" formatted="false">"PLaMo 翻譯：%s"</string>
+    <string name="saved">"已儲存"</string>
+    <string name="fit_to_screen">"符合螢幕"</string>
+    <string name="start_over">"重新開始"</string>
+    <string name="the_graph_can_t_be_changed">"有工作在執行時無法修改節點圖。"</string>
+    <string name="model">"模型"</string>
+    <string name="fine_tune_imported">"匯入的模型"</string>
+    <string name="built_in">"內建"</string>
+    <string name="strength_1_0_as_made">"強度（1.0 = 原樣）"</string>
+    <string name="width">"寬"</string>
+    <string name="height">"高"</string>
+    <string name="multiples_of_16_area_at_most" formatted="false">"16 的倍數。此模型面積上限 %d×%d（Krea 1024×1024，SDXL 1.5MP）。"</string>
+    <string name="steps_2">"步數"</string>
+    <string name="seed_empty_random">"種子（空白：隨機）"</string>
+    <string name="last">"上次"</string>
+    <string name="denoise_with_vae_encode">"去雜訊（搭配 VAE 編碼）"</string>
+    <string name="sampler">"取樣器"</string>
+    <string name="scheduler">"排程器"</string>
+    <string name="choose_a_picture">"選擇圖片"</string>
+    <string name="another_picture">"換一張"</string>
+    <string name="clear_2">"清除"</string>
+    <string name="the_picture_appears_here_once_one">"產生後圖片會顯示在這裡。"</string>
+    <string name="no_settings">"沒有可設定的項目。"</string>
+    <string name="size_sides_in_multiples_of_16" formatted="false">"尺寸：邊長為 16 的倍數，此模型面積不超過 %d×%d%s。"</string>
+    <string name="sdxl_d_d_fits" formatted="false">"（SDXL：可用 %d×%d）"</string>
+    <string name="vae_encode_this_phone_has_no" formatted="false">"VAE 編碼：這支手機沒有 %d×%d 的編碼器（請用 App 提供的尺寸）。"</string>
+    <string name="lora_d_together" formatted="false">"LoRA：%d 個"</string>
+    <string name="not_sorted">"未分類"</string>
+    <string name="name">"名稱"</string>
+    <string name="rank">"秩"</string>
+    <string name="layers">"層數"</string>
+    <string name="trained">"訓練"</string>
+    <string name="size">"大小"</string>
+    <string name="trigger_words_which_follow_it_into">"觸發詞（啟用時加入提示詞，停用時移除）"</string>
+    <string name="trigger_words_tap_to_add">"觸發詞（點按加入）"</string>
+    <string name="most_used_tags_tap_to_add">"常用標籤，點按加入"</string>
+    <string name="group">"群組"</string>
+    <string name="note">"備註"</string>
+    <string name="in_use">"使用中"</string>
+    <string name="no_lora_on_this_phone_yet">"手機裡還沒有 LoRA。"</string>
+    <string name="pick_a_safetensors_or_gguf_file">"請選擇 .safetensors 或 .gguf 檔案。"</string>
+    <string name="s_is_not_read_by_the" formatted="false">"尚不支援 %s。"</string>
+    <string name="not_enough_space_d_gb_needed" formatted="false">"空間不足：需要 %d GB，剩餘 %d GB。"</string>
+    <string name="could_not_open_the_file">"無法開啟檔案。"</string>
+    <string name="stop_2">"停止"</string>
+    <string name="converting_s" formatted="false">"正在轉換 %s…"</string>
+    <string name="converting_s_block_d_of_d" formatted="false">"正在轉換 %s：第 %d / %d 塊"</string>
+    <string name="s_is_ready_and_chosen_for" formatted="false">"%s 已就緒，已選用於 %s（擴充設定 → 模型）。"</string>
+    <string name="stopped_2">"已停止。"</string>
+    <string name="could_not_get_it_ready_s" formatted="false">"無法完成：%s"</string>
+    <string name="downloading_s_d_d_mb" formatted="false">"正在下載 %s：%d / %d MB"</string>
+    <string name="bring_in_a_model">"匯入模型"</string>
+    <string name="an_anima_krea_2_moss_image">"在手機上把 Anima、Krea 2、MOSS-Image 或 FLUX.2 Klein 的 .safetensors 微調模型轉換為引擎格式。轉換後的模型約佔檔案大小的空間（Q8 一半，Q4 四分之一）；線上下載的在轉換結束前還會保留下載檔，期間約需兩倍。文字編碼器和 VAE 仍用內建的。非 Turbo 模型需要更多步數（通常 20–30）和相應的取樣器設定。"</string>
+    <string name="import_a_model_file">"匯入模型檔案"</string>
+    <string name="find_a_model_online">"線上尋找模型"</string>
+    <string name="as_they_run_nothing_written">"執行時套用（不另外產生檔案）"</string>
+    <string name="baked_copy_kept_fast_again_next">"烘焙 · 保留副本（下次更快，佔用儲存空間）"</string>
+    <string name="baked_copy_removed_after">"烘焙 · 用完刪除副本"</string>
+    <string name="lora_method_s" formatted="false">"LoRA 方式：%s"</string>
+    <string name="lora_method">"LoRA 方式"</string>
+    <string name="recommended">"推薦"</string>
+    <string name="none_of_its_files_is_in" formatted="false">"其檔案格式都尚不支援：%s"</string>
+    <string name="fp16_as_made">"fp16（原始品質）"</string>
+    <string name="q8_half_the_size">"Q8（一半大小）"</string>
+    <string name="q4_a_quarter_lower_quality">"Q4（四分之一，品質較低）"</string>
+    <string name="convert_to">"轉換格式"</string>
+    <string name="source_s" formatted="false">"來源 %s"</string>
+    <string name="civitai_is_a_separate_website_its">"Civitai 是獨立的網站。其條款規定須年滿 18 歲才能使用，服務面向美國訪客，且其上每個模型都有各自的授權（見其 Civitai 頁面）。僅在年滿 18 歲時繼續。"</string>
+    <string name="i_am_18_or_older">"我已年滿 18 歲"</string>
+    <string name="no_usable_safetensors_file_in_s" formatted="false">"%s 中沒有可用的 .safetensors 檔案。"</string>
+    <string name="download_s_d_mb_by_s" formatted="false">"下載 %s（%d MB，作者 %s）並在手機上轉換？完成後將選用它。"</string>
+    <string name="models_2">"模型"</string>
+    <string name="fine_tunes_of_this_model_the">"此模型的微調模型清單。所選檔案會下載並在手機上轉換，轉換期間需要兩倍於檔案大小的空間（量化時為量化模型加原始模型的大小）。Hugging Face 上只下載不需登入的檔案。"</string>
+    <string name="no_model_to_draw_with_download">"沒有可用來繪圖的模型：請在 設定 → 模型管理 中下載。"</string>
+    <string name="s_the_fine_tunes_need_its" formatted="false">"%s：微調模型需要其文字編碼器和 VAE。請在 設定 → 模型管理 中下載 %s（取消「包含內建模型」即只下載編碼器和 VAE）。"</string>
+    <string name="no_model_to_draw_with_bring">"沒有可用來繪圖的模型：請匯入微調模型（擴充模式 → 模型旁的齒輪），或重新下載內建模型。"</string>
+    <string name="delete_an_imported_model">"刪除匯入的模型"</string>
+    <string name="pick_what_to_save_save_button">"挑選後儲存（儲存按鈕）"</string>
+    <string name="save_every_picture_automatically">"自動儲存所有圖片"</string>
+    <string name="saving_pictures">"圖片儲存方式"</string>
+    <string name="you_can_change_this_in_settings">"之後可在設定中變更。"</string>
+    <string name="in_use_2">"使用中"</string>
+    <string name="use_the_built_in_model">"使用內建模型"</string>
+    <string name="use_this_model">"使用此模型"</string>
+    <string name="imported_models">"匯入的模型"</string>
+    <string name="used_in_extended_mode">"在擴充模式中使用"</string>
+    <string name="lora_merged_into_the_weights_made">"已合併 LoRA 的權重，需要時重新產生"</string>
+    <string name="prepared_copies">"預先產生的副本"</string>
+    <string name="unfinished_downloads_and_conversions">"未完成的下載和轉換"</string>
+    <string name="d_items" formatted="false">"%d 項"</string>
+    <string name="unfinished_files">"未完成的檔案"</string>
+    <string name="free_on_this_phone_s" formatted="false">"手機剩餘空間：%s"</string>
+    <string name="nothing_besides_the_model_packs">"除了模型包以外沒有其他檔案。"</string>
+    <string name="imported_models_loras_and_other_files">"匯入的模型、LoRA 及其他檔案"</string>
+    <string name="tap_an_item_to_use_or">"點按項目即可使用或刪除。"</string>
+    <string name="none_saved_yet">"還沒有儲存的預設集。"</string>
+    <string name="read_from_a_picture">"從圖片讀取"</string>
+    <string name="save_the_current_one">"儲存目前設定"</string>
+    <string name="negative_prompt_used_when_cfg_1">"反向提示詞（在擴充設定中 CFG 大於 1 時生效）"</string>
+    <string name="temperatures_shown">"溫度顯示：開"</string>
+    <string name="temperatures_hidden">"溫度顯示：關"</string>
+    <string name="stop_after_the_current_block_the">"停止：目前區塊結束後立即停止（該步作廢）"</string>
+    <string name="stop_at_the_end_of_the">"停止：目前步驟結束時"</string>
+    <string name="diagnosis_log_on_slower_for_a">"診斷記錄：開（較慢，用於回報問題）"</string>
+    <string name="diagnosis_log_off">"診斷記錄：關"</string>
+    <string name="node_graph_on">"節點圖：開"</string>
+    <string name="node_graph_off">"節點圖：關"</string>
+    <string name="this_model_samples_in_its_own">"此模型使用自身固定的取樣方式（YuE2 為歌曲模型本身的方式）。取樣器設定適用於其他模型。"</string>
+    <string name="these_apply_to_moss_image_turbo">"適用於 MOSS-Image。「Turbo 8 steps」和「Turbo 4 steps」是 HaDeS 加速版（加在模型上的 LoRA，Euler、shift 5、CFG 1 固定；8 步較乾淨，4 步約快一倍）。其他選項按原始釋出的模型（SFT 或其微調）執行：通常 CFG 3、shift 5、20–50 步。CFG 大於 1 時每步計算兩次模型。"</string>
+    <string name="these_apply_to_krea_2_the">"適用於 Krea 2。排程器中的「Krea Turbo」是蒸餾 Turbo 模型時使用的排程。Krea 2 Turbo 依此排程、Euler、CFG 1 蒸餾；其他選項用於非 Turbo 的 Krea 2（raw）或試驗。CFG 大於 1 時每步計算兩次。"</string>
+    <string name="these_apply_to_anima_a_turbo">"適用於 Anima。Turbo 模型依預設值（ER-SDE、simple）蒸餾，變更通常會變差；其他選項用於非 Turbo 的微調模型。"</string>
+    <string name="turbo_8_steps">"Turbo 8 steps"</string>
+    <string name="turbo_4_steps">"Turbo 4 steps"</string>
+    <string name="settings_read_from_the_picture_s" formatted="false">"已讀取圖片的設定：%s"</string>
+    <string name="split_in_parts">"分割檔"</string>
+    <string name="not_readable_yet">"尚不支援"</string>
+    <string name="prompt">"提示詞"</string>
+    <string name="negative">"反向提示詞"</string>
+    <string name="size_2">"尺寸"</string>
+    <string name="start_image">"起始圖片"</string>
+    <string name="vae_encode">"VAE 編碼"</string>
+    <string name="vae_decode">"VAE 解碼"</string>
+    <string name="upscale_2_2">"×2 放大"</string>
+    <string name="image">"圖片"</string>
+    <string name="add_an_image_node">"請加入圖片節點。"</string>
+    <string name="the_image_node_needs_a_vae">"圖片節點之前需要 VAE 解碼。"</string>
+    <string name="vae_decode_needs_a_sampler">"VAE 解碼需要連接取樣器。"</string>
+    <string name="the_sampler_needs_a_model">"取樣器需要連接模型。"</string>
+    <string name="the_sampler_needs_a_prompt">"取樣器需要提示詞。"</string>
+    <string name="vae_encode_needs_a_start_image">"VAE 編碼需要連接起始圖片。"</string>
+    <string name="basis_krea_2_community_license_4">"依據：Krea 2 Community License 第 4.2 條及 Krea 使用政策。全文：設定 → 授權與聲明。"</string>
+    <string name="basis_the_law_and_the_circlestone">"依據：法律，以及禁止兒童性剝削內容的 CircleStone Non-Commercial License 第 4(a)(iv) 條。全文：設定 → 授權與聲明。"</string>
+    <string name="basis_the_law_child_sexual_abuse">"依據：法律（兒童性剝削內容）"</string>
+    <string name="basis_kroma_s_own_age_setting">"依據：並非模型授權，而是 Kroma 本身的年齡設定。成年人在設定中開啟後，成人內容會直接顯示。"</string>
+    <string name="picture_discarded_minor">"圖片已捨棄。\n原因：判別模型將其判定為成人內容（分數 %1$.2f），且提示詞中有指涉未成年人的描述。使用政策禁止涉及未成年人的性內容。\n"</string>
+    <string name="picture_blurred_adult">"圖片已模糊顯示且未儲存。\n原因：判別模型將其判定為成人內容（分數 %1$.2f，門檻 %2$.2f）。"</string>
+    <string name="adult_setting_can_turn_off">"成人內容本身並未被禁止，成年人可在設定中關閉此限制。"</string>
+    <string name="classifier_can_be_wrong">"判別結果可能有誤。\n"</string>
+    <string name="models_not_published">"適用於這支手機 NPU（%1$s）的模型尚未公開。"</string>
+    <string name="anima_size_rule">"Anima：邊長須為 16 的倍數，總計不超過 %1$s 個 token（每個 16×16 像素）"</string>
+    <string name="encoder">"文字編碼器："</string>
+    <string name="download_through_the_hf_mirror">"透過 hf-mirror.com 下載"</string>
+    <string name="tap_the_arrow_for_options">"點按模型旁的 ▾ 可查看權重格式（FP16、Q8、Q4）等選項。也可以不下載內建模型，只下載 VAE 和編碼器，再透過 設定 → 擴充模式 匯入微調模型使用。"</string>
+    <string name="waiting_for_the_npu">"NPU 尚未就緒，%1$s 秒後重試…"</string>
+</resources>

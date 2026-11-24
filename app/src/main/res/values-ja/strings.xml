@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 日本語. Translated by the author, not checked by a native speaker: corrections are welcome.
+     %1$s, %2$s ... are values the app fills in; keep them, in any order. Licence wording is not in these files:
+     it is shown in English in every language. -->
+<resources>
+    <string name="i_have_read_and_agree">"上記の内容を読み、同意します。"</string>
+    <string name="continue_button">"続ける"</string>
+    <string name="krea_2_turbo_unquantized_fp16">"画像モデルを fp16・Q8・Q4 などの形式で、このスマホの NPU だけで動かします。入力した文章や作った画像は端末の外に出ず、ネットワークはモデルファイルのダウンロードにだけ使います。"</string>
+    <string name="before_you_start">"はじめる前に"</string>
+    <string name="terms_english_only">"以下の条項は英語でのみ表示します。"</string>
+    <string name="read_the_full_license_and">"ライセンスと告知の全文を読む"</string>
+    <string name="this_app">"このアプリ"</string>
+    <string name="kroma_is_free_software_under">"Kroma は GNU General Public License v3 のもとで公開されているフリーソフトウェアです。"</string>
+    <string name="models_and_components">"モデルとコンポーネント"</string>
+    <string name="krea_2_model_license">"Krea 2 モデルのライセンス"</string>
+    <string name="krea_ai_s_license_for">"Krea.ai による Krea 2 モデルのライセンスです。モデルに適用され、このアプリのソースコードには適用されません。"</string>
+    <string name="anima_model_license">"Anima モデルのライセンス"</string>
+    <string name="circlestone_labs_license_for_the">"CircleStone Labs による Anima モデルのライセンスです。モデルに適用され、このアプリのソースコードには適用されません。"</string>
+    <string name="this_phone_s_chip_is">"この端末のチップ %1$s には対応していません。Kroma は Hexagon v73・v75・v79・v81 NPU を持つ Snapdragon で動作します: 8 Gen 2、8s Gen 3、7+ Gen 3（v73）、8 Gen 3（v75）、8 Elite（v79）、8 Elite Gen 5（v81）。エンジンは NPU の世代ごとに別々にビルドしています。"</string>
+    <string name="send_the_log">"ログを送る"</string>
+    <string name="download_on_wi_fi_only">"Wi-Fi のときだけダウンロード"</string>
+    <string name="free_storage">"空き容量 %1$s"</string>
+    <string name="to_download_free_storage">"ダウンロード %1$s  ·  空き容量 %2$s"</string>
+    <string name="get_the_model_list">"モデル一覧を取得"</string>
+    <string name="download">"%1$s をダウンロード"</string>
+    <string name="apply">"適用"</string>
+    <string name="done">"完了"</string>
+    <string name="downloaded">"ダウンロード済み · "</string>
+    <string name="not_downloaded">"未ダウンロード · "</string>
+    <string name="delete">"削除"</string>
+    <string name="delete_from_this_phone">"%1$s をこの端末から削除しますか？"</string>
+    <string name="frees_it_can_be_downloaded">"%1$s が空きます。あとでもう一度ダウンロードできます。"</string>
+    <string name="cancel">"キャンセル"</string>
+    <string name="models_pick_at_least_one">"モデル  ·  1 つ以上選択"</string>
+    <string name="options">"オプション"</string>
+    <string name="always_included">"必須のダウンロード"</string>
+    <string name="shared_files">"共通ファイル"</string>
+    <string name="reading_the_model_list">"モデル一覧を読み込み中…"</string>
+    <string name="failed">"失敗: "</string>
+    <string name="not_on_wi_fi">"Wi-Fi に接続されていません。"</string>
+    <string name="remove_from_this_phone">"この端末から削除しますか？"</string>
+    <string name="frees_they_can_be_downloaded">"%1$s が空きます。あとでもう一度ダウンロードできます。"</string>
+    <string name="remove">"削除"</string>
+    <string name="pause">"一時停止"</string>
+    <string name="not_enough_storage_to_download">"空き容量が足りません: ダウンロード %1$s、空き %2$s。"</string>
+    <string name="about_min_left">" · 残り約 %1$s 分"</string>
+    <string name="models_are_ready">"モデルの準備ができました"</string>
+    <string name="paused_press_again_to_resume">"一時停止しました。もう一度押すと続きから再開します。"</string>
+    <string name="models">"モデル管理"</string>
+    <string name="beta">"  ·  ベータ"</string>
+    <string name="kroma_downloads_the_unquantized_fp16">"モデルをダウンロードします。中断しても再開でき、ファイルごとに検証します。"</string>
+    <string name="back">"戻る"</string>
+    <string name="describe_the_picture_in_english">"画像を英語で説明するか、翻訳してください"</string>
+    <string name="length">"長さ %1$s / %2$s"</string>
+    <string name="length_too_long_the_end">"長さ %1$s / %2$s · 長すぎます。後ろの部分は画像に反映されません"</string>
+    <string name="steps">"ステップ %1$s"</string>
+    <string name="seed">"シード"</string>
+    <string name="much_slower_if_the_screen">"実行中に画面がロックされると大幅に遅くなります"</string>
+    <string name="sending_the_log_helps_even">"問題がなくても、ログを送っていただけると助かります。含まれるのは所要時間だけで、プロンプトは含まれません。タップして送信"</string>
+    <string name="generate">"生成"</string>
+    <string name="stopping_after_this_block">"このブロックの後で停止します…"</string>
+    <string name="write_a_prompt_first">"先にプロンプトを入力してください。"</string>
+    <string name="is_not_runnable_in_this">"このビルドではまだ %1$s を実行できません。"</string>
+    <string name="share">"共有"</string>
+    <string name="upscale_2">"×2 アップスケール"</string>
+    <string name="settings">"設定"</string>
+    <string name="aspect_ratio">"アスペクト比"</string>
+    <string name="m_s">"%1$s分%2$s秒"</string>
+    <string name="s">"%1$s秒"</string>
+    <string name="stop">"停止"</string>
+    <string name="battery_at_stopped_charge_the">"バッテリー残量 %1$s%%。停止しました。充電してからやり直してください。"</string>
+    <string name="picture">"%1$s/%2$s 枚目 · "</string>
+    <string name="step_about_left">"ステップ %1$s/%2$s · %3$s%% · 残り約 %4$s"</string>
+    <string name="stopped_nothing_saved_under_half">"停止しました。ステップが半分に満たないため保存していません。"</string>
+    <string name="decoding">"デコード中…"</string>
+    <string name="done_in_seed">"完了 %1$s · シード %2$s"</string>
+    <string name="stopped">"停止しました。"</string>
+    <string name="play_the_song">"曲を再生"</string>
+    <string name="stop_the_song">"再生を停止"</string>
+    <string name="error">"エラー: "</string>
+    <string name="nsettings_send_the_log">"\n設定 → ログを送る。"</string>
+    <string name="picture_s_saved">"%1$s 枚を保存しました"</string>
+    <string name="upscaling">"アップスケール中 %1$s/%2$s"</string>
+    <string name="upscaled_to">"%1$s×%2$s にアップスケールしました"</string>
+    <string name="adult_content_on">"成人向けコンテンツ: オン"</string>
+    <string name="adult_content_off">"成人向けコンテンツ: オフ"</string>
+    <string name="language">"言語"</string>
+    <string name="license_and_notices">"ライセンス・告知"</string>
+    <string name="year_of_birth">"生まれた年"</string>
+    <string name="i_am_an_adult">"成人です。"</string>
+    <string name="show_adult_content">"成人向けコンテンツを表示"</string>
+    <string name="next">"次へ"</string>
+    <string name="enter_your_year_of_birth">"生まれた年を入力してください。"</string>
+    <string name="this_is_available_to_adults">"成人のみ利用できます。"</string>
+    <string name="tick_i_am_an_adult">"「成人です」にチェックを入れてください。"</string>
+    <string name="confirm">"確認"</string>
+    <string name="pictures_the_classifier_rates_as">"分類モデルが成人向けと判定した画像も表示・保存されるようになります。未成年者に関わる内容は引き続きブロックされます。生成した内容についての責任は利用者にあります。"</string>
+    <string name="turn_on">"オンにする"</string>
+    <string name="preparing">"準備中…"</string>
+    <string name="progress">"進行状況"</string>
+    <string name="kroma_is_working">"Kroma 実行中"</string>
+    <string name="prompt_too_long_only_the">"プロンプトが長すぎます: %2$s トークンのうち先頭 %1$s トークンだけを使います"</string>
+    <string name="prompt_refused_nreason_it_combines">"プロンプトは拒否されました。\n理由: 未成年者と性的な内容が組み合わされています。ポリシーは未成年者に関わる性的な内容を例外なく禁じています。\n"</string>
+    <string name="ratio_not_available">"%1$s ではこのアスペクト比を使えません。"</string>
+    <string name="save">"保存"</string>
+    <string name="save_n">"すべて保存（%1$s）"</string>
+    <string name="saved_to_gallery">"%1$s 枚を Pictures/Kroma に保存しました。"</string>
+    <string name="not_saved_yet">"まだ保存されていません。残すには「保存」を押してください。"</string>
+    <string name="picture_s_ready">"%1$s 枚が完成しました"</string>
+    <string name="auto_save_on">"ギャラリーに自動保存：オン"</string>
+    <string name="auto_save_off">"ギャラリーに自動保存：オフ"</string>
+    <string name="uninstall_deletes_models">"モデルはアプリ内に保存されます。Kroma をアンインストールするとモデルも削除されます。"</string>
+    <string name="free_memory">"空きメモリ %1$s"</string>
+    <string name="close_other_apps">"他のアプリを閉じる"</string>
+    <string name="memory_freed">"空きメモリ %1$s → %2$s"</string>
+    <string name="more_memory_is_faster">"空きメモリが多いほどモデルを多く常駐でき、速くなります。"</string>
+    <string name="lora_off">"LoRA：なし"</string>
+    <string name="lora_on">"LoRA：%1$s · %2$s"</string>
+    <string name="no_lora">"LoRA を使わない"</string>
+    <string name="add_a_lora_file">"LoRA ファイルを追加"</string>
+    <string name="lora_help">"メイン画面で選んだモデル用の .safetensors LoRA ファイルを選んでください。変換はこの端末で行います。名前を長押しすると削除できます。"</string>
+    <string name="converting_the_lora">"LoRA を変換中…"</string>
+    <string name="preparing_the_lora">"LoRA を準備中…"</string>
+    <string name="lora_added">"LoRA を追加しました：%1$s · %2$s 層"</string>
+    <string name="lora_left_out">" · 適用できない %1$s 層は除外"</string>
+    <string name="lora_plain_only">"この LoRA 形式は端末で変換できません。"</string>
+    <string name="report_this_picture">"この画像を報告"</string>
+    <string name="report_include_prompt">"プロンプトも送る"</string>
+    <string name="report_what_is_sent">"モデルが生成すべきでないものを生成したときに使ってください。モデル、サイズ、ステップ数、シード、コンテンツフィルターのスコアを記した短いテキストを用意し、送り先はご自身で選びます。画像そのものは添付されません。"</string>
+    <string name="find_a_lora">"オンラインで LoRA を探す"</string>
+    <string name="lora_browse_help">"Civitai または Hugging Face にあるこのモデル用の LoRA です。タップするとダウンロードして変換します。ライセンスと利用条件は LoRA ごとに異なるので、各ページを確認してください。"</string>
+    <string name="search">"検索"</string>
+    <string name="searching">"検索中…"</string>
+    <string name="nothing_found">"見つかりませんでした。"</string>
+    <string name="more">"もっと見る"</string>
+    <string name="sort_downloads">"ダウンロード順"</string>
+    <string name="sort_rating">"評価順"</string>
+    <string name="sort_newest">"新着順"</string>
+    <string name="lora_hit_line">"ダウンロード %1$d 回 · %2$d MB · %3$s"</string>
+    <string name="lora_download_ask">"%1$d MB をダウンロードしてこの端末で変換しますか？作者: %2$s。"</string>
+    <string name="lora_downloading">"LoRA をダウンロード中: %1$d / %2$d MB"</string>
+    <string name="lora_needs_login">"作者がこのファイルに Civitai へのログインを求めています。ブラウザーでダウンロードしてから「LoRA ファイルを追加」を使ってください。"</string>
+    <string name="open_the_page">"ページを開く"</string>
+    <string name="download_it">"ダウンロード"</string>
+    <string name="lora_login_needed">"ログインが必要"</string>
+    <string name="civitai_key">"Civitai API キー"</string>
+    <string name="civitai_key_off">"Civitai API キー: 未設定"</string>
+    <string name="civitai_key_on">"Civitai API キー: 設定済み"</string>
+    <string name="civitai_key_hint">"API キー"</string>
+    <string name="civitai_key_help">"一部の作者はログインしたユーザーにだけダウンロードを許可しています。Civitai のアカウント設定で API キーを作ってここに貼り付けると、そうしたファイルもアプリ内でダウンロードできます。キーはこの端末にだけ保存され、civitai.com にだけ送られます。削除するには欄を空にしてください。"</string>
+    <string name="picture_shown_as_is">"画像を元のまま表示しました。残すには保存を押してください。"</string>
+    <string name="advanced_off">"拡張モード: オフ"</string>
+    <string name="advanced_on">"拡張モード: オン"</string>
+    <string name="advanced_settings">"拡張設定"</string>
+    <string name="adv_help">"画面のモデルに適用される設定です。既定値はこのモードをオフにしたときと同じです。"</string>
+    <string name="adv_sampler">"サンプラー"</string>
+    <string name="adv_scheduler">"スケジューラー"</string>
+    <string name="adv_shift">"Shift %1$s"</string>
+    <string name="adv_cfg">"CFG %1$s"</string>
+    <string name="adv_cfg_help">"1 より大きいと下のネガティブプロンプトを使い、ステップごとにモデルを 2 回動かすため時間が約 2 倍になります。Anima Turbo は 1 向けです。"</string>
+    <string name="adv_reset">"既定値に戻す"</string>
+    <!-- moved from the code's inline translations (2026-11-20) -->
+    <string name="krea_turbo">"Krea Turbo"</string>
+    <string name="reference_pictures_edit_d" formatted="false">"参照画像（編集）: %d 枚"</string>
+    <string name="reference_pictures_edit_none_up_to">"参照画像（編集）: なし（最大 3 枚）"</string>
+    <string name="start_image_set">"開始画像: あり"</string>
+    <string name="start_image_none_text_to_image">"開始画像: なし（テキストから画像）"</string>
+    <string name="no_model_on_this_phone_yet">"このスマホにはまだモデルがありません。ダウンロードすると描けます。"</string>
+    <string name="download_models">"モデルをダウンロード"</string>
+    <string name="lyrics_in_parts_marked_verse_chorus">"歌詞（[Verse]・[Chorus]・[Bridge] などで区切って）"</string>
+    <string name="original">"原文"</string>
+    <string name="translate">"翻訳"</string>
+    <string name="the_translation_model_is_not_installed">"翻訳モデルがありません: 設定 → モデル → 翻訳（PLaMo）。"</string>
+    <string name="translating_the_prompt_plamo">"プロンプトを翻訳中（PLaMo）…"</string>
+    <string name="fixed">"固定"</string>
+    <string name="a_song_style_above_lyrics_below">"曲: 上にスタイル、下に歌詞"</string>
+    <string name="style_tags_e_g_pop_female">"スタイルタグ（例: pop, female vocal, piano, upbeat）"</string>
+    <string name="pictures">"枚数"</string>
+    <string name="presets">"プリセット"</string>
+    <string name="stopping_at_the_end_of_this">"このステップが終わったら停止します…"</string>
+    <string name="write_the_style_or_the_lyrics">"先にスタイルか歌詞を書いてください。"</string>
+    <string name="mask_painted">"マスク: あり"</string>
+    <string name="mask_none_the_whole_picture">"マスク: なし、画像全体"</string>
+    <string name="mode_outpaint">"モード: アウトペイント"</string>
+    <string name="mode_inpaint">"モード: インペイント"</string>
+    <string name="change_s" formatted="false">"変化の度合い: %s"</string>
+    <string name="auto_2">"自動"</string>
+    <string name="t_30_s">"30 秒"</string>
+    <string name="t_1_min">"1 分"</string>
+    <string name="t_2_min">"2 分"</string>
+    <string name="t_3_min">"3 分"</string>
+    <string name="t_4_min">"4 分"</string>
+    <string name="length_of_an_instrumental_a_song">"インスト曲の長さ（歌詞があれば歌詞どおりに終わる）"</string>
+    <string name="songs">"曲数"</string>
+    <string name="use_as_start">"開始画像に"</string>
+    <string name="this_picture_is_the_reference_now">"この画像を参照にしました: 変えたい内容を書いてください"</string>
+    <string name="this_picture_is_the_start_image">"この画像を開始画像にしました（img2img）"</string>
+    <string name="battery">"バッテリー"</string>
+    <string name="no_kroma_settings_in_that_picture">"その画像には Kroma の設定がありません（他で作ったか、編集して保存し直した画像）。"</string>
+    <string name="sdxl_1_0_license_creativeml_open">"SDXL 1.0 ライセンス（CreativeML Open RAIL++-M）"</string>
+    <string name="flux_2_klein_9b_license_flux">"FLUX.2 [klein] 9B ライセンス（FLUX Non-Commercial License）"</string>
+    <string name="plamo_community_license_translation">"PLaMo コミュニティライセンス（翻訳）"</string>
+    <string name="s_has_a_hexagon_npu_but" formatted="false">"%s は Hexagon NPU を搭載していますが、同世代の 8 Gen 2 より小さな NPU です（高速メモリが少なく、行列ユニットの fp16 が無効な場合があります）。Kroma のエンジンはまだこのチップで動かない可能性があります。ログを送っていただくと、このチップの構成が正確にわかり、対応に必要な情報になります。"</string>
+    <string name="ui_preview_debug_build_nothing_is">"UI プレビュー（デバッグ版、画像は生成されません）"</string>
+    <string name="include_the_built_in_model_untick">"内蔵モデルを含める（取り込んだファインチューンだけ使うなら外す）"</string>
+    <string name="q8_about_half_the_size_close">"Q8（約半分のサイズ、FP16 に近い）"</string>
+    <string name="q4_about_a_quarter_lower_quality">"Q4（約 4 分の 1、品質は下がる）"</string>
+    <string name="fp16_as_made_default">"FP16（そのまま、標準）"</string>
+    <string name="weights">"重み："</string>
+    <string name="press_the_button_below_to_read">"下のボタンを押してモデル一覧を取得してください。"</string>
+    <string name="later">"あとで"</string>
+    <string name="brush_s" formatted="false">"ブラシ: %s"</string>
+    <string name="small">"小"</string>
+    <string name="medium">"中"</string>
+    <string name="large">"大"</string>
+    <string name="eraser">"消しゴム"</string>
+    <string name="paint">"塗る"</string>
+    <string name="paint_over_what_to_redraw">"描き直す所を塗ってください。"</string>
+    <string name="clear">"消去"</string>
+    <string name="no_mask">"マスクなし"</string>
+    <string name="ui_preview_this_phone_cannot_run">"UI プレビュー：このスマホではモデルを実行できないため、画像は生成されません。"</string>
+    <string name="no_model_on_this_phone_yet_2">"まだモデルがありません。上のボタンか設定から先にモデルをダウンロードしてください。"</string>
+    <string name="merging_the_lora_into_the_weights" formatted="false">"LoRA を重みに合成中: ブロック %d / %d"</string>
+    <string name="reading_the_start_image">"開始画像を読み込み中"</string>
+    <string name="reading_the_reference_pictures">"参考画像を読み込み中…"</string>
+    <string name="writing_the_score">"楽譜を作成中"</string>
+    <string name="composing">"作曲中"</string>
+    <string name="rendering_the_sound">"音を生成中"</string>
+    <string name="decoding_the_audio">"音声をデコード中"</string>
+    <string name="done_s_seed_d_saved_to_2" formatted="false">"完了 %s · シード %d · Music/Kroma に保存"</string>
+    <string name="translated_by_plamo_s" formatted="false">"PLaMo 翻訳: %s"</string>
+    <string name="saved">"保存済み"</string>
+    <string name="fit_to_screen">"画面に合わせる"</string>
+    <string name="start_over">"最初から"</string>
+    <string name="the_graph_can_t_be_changed">"処理中はグラフを変更できません。"</string>
+    <string name="model">"モデル"</string>
+    <string name="fine_tune_imported">"取り込んだモデル"</string>
+    <string name="built_in">"標準"</string>
+    <string name="strength_1_0_as_made">"強度（1.0 = そのまま）"</string>
+    <string name="width">"幅"</string>
+    <string name="height">"高さ"</string>
+    <string name="multiples_of_16_area_at_most" formatted="false">"16 の倍数。このモデルの面積上限は %d×%d（Krea 1024×1024、SDXL 1.5MP）。"</string>
+    <string name="steps_2">"ステップ"</string>
+    <string name="seed_empty_random">"シード（空欄: ランダム）"</string>
+    <string name="last">"前回"</string>
+    <string name="denoise_with_vae_encode">"デノイズ（VAE エンコードと）"</string>
+    <string name="sampler">"サンプラー"</string>
+    <string name="scheduler">"スケジューラー"</string>
+    <string name="choose_a_picture">"画像を選ぶ"</string>
+    <string name="another_picture">"別の画像"</string>
+    <string name="clear_2">"消去"</string>
+    <string name="the_picture_appears_here_once_one">"生成すると画像がここに表示されます。"</string>
+    <string name="no_settings">"設定項目はありません。"</string>
+    <string name="size_sides_in_multiples_of_16" formatted="false">"サイズ: 辺は 16 の倍数、このモデルは面積 %d×%d 以下%s。"</string>
+    <string name="sdxl_d_d_fits" formatted="false">"（SDXL: %d×%d に合わせられます）"</string>
+    <string name="vae_encode_this_phone_has_no" formatted="false">"VAE エンコード: %d×%d のエンコーダーがありません（アプリのサイズを使ってください）。"</string>
+    <string name="lora_d_together" formatted="false">"LoRA: %d 個"</string>
+    <string name="not_sorted">"未分類"</string>
+    <string name="name">"名前"</string>
+    <string name="rank">"ランク"</string>
+    <string name="layers">"レイヤー"</string>
+    <string name="trained">"学習"</string>
+    <string name="size">"サイズ"</string>
+    <string name="trigger_words_which_follow_it_into">"トリガー語（選ぶとプロンプトに入り、外すと消えます）"</string>
+    <string name="trigger_words_tap_to_add">"トリガー語（タップで追加）"</string>
+    <string name="most_used_tags_tap_to_add">"よく使われたタグ（タップで追加）"</string>
+    <string name="group">"分類"</string>
+    <string name="note">"メモ"</string>
+    <string name="in_use">"使用中"</string>
+    <string name="no_lora_on_this_phone_yet">"まだ LoRA がありません。"</string>
+    <string name="pick_a_safetensors_or_gguf_file">".safetensors か .gguf ファイルを選んでください。"</string>
+    <string name="s_is_not_read_by_the" formatted="false">"%s は未対応です。"</string>
+    <string name="not_enough_space_d_gb_needed" formatted="false">"容量不足: %d GB 必要、空き %d GB。"</string>
+    <string name="could_not_open_the_file">"ファイルを開けません。"</string>
+    <string name="stop_2">"停止"</string>
+    <string name="converting_s" formatted="false">"%s を変換中…"</string>
+    <string name="converting_s_block_d_of_d" formatted="false">"%s を変換中: ブロック %d / %d"</string>
+    <string name="s_is_ready_and_chosen_for" formatted="false">"%s の準備ができ、%s 用に選びました（拡張設定のモデル）。"</string>
+    <string name="stopped_2">"停止しました。"</string>
+    <string name="could_not_get_it_ready_s" formatted="false">"準備できませんでした: %s"</string>
+    <string name="downloading_s_d_d_mb" formatted="false">"%s をダウンロード中: %d / %d MB"</string>
+    <string name="bring_in_a_model">"モデルを取り込む"</string>
+    <string name="an_anima_krea_2_moss_image">"Anima、Krea 2、MOSS-Image の微調整 .safetensors をスマホ上でエンジン用に変換します。変換後のモデルはファイルと同程度の容量（Q8 は半分、Q4 は 4 分の 1）を使い、オンラインで取得した場合は変換が終わるまでダウンロードも残るため、その間は約 2 倍必要です。テキストエンコーダーと VAE は標準のままです。ターボでないモデルはステップを増やし（多くは 20〜30）、サンプラーをそのモデルに合わせてください。"</string>
+    <string name="import_a_model_file">"モデルファイルを取り込む"</string>
+    <string name="find_a_model_online">"モデルをオンラインで探す"</string>
+    <string name="as_they_run_nothing_written">"ランタイム（ファイルを書かない）"</string>
+    <string name="baked_copy_kept_fast_again_next">"焼き込み · キャッシュ保持（次回から速い、容量を使う）"</string>
+    <string name="baked_copy_removed_after">"焼き込み · キャッシュなし（終了後に削除）"</string>
+    <string name="lora_method_s" formatted="false">"LoRA 適用方式：%s"</string>
+    <string name="lora_method">"LoRA 適用方式"</string>
+    <string name="recommended">"推奨"</string>
+    <string name="none_of_its_files_is_in" formatted="false">"未対応の形式のみです: %s"</string>
+    <string name="fp16_as_made">"fp16（元の品質）"</string>
+    <string name="q8_half_the_size">"Q8（半分の容量）"</string>
+    <string name="q4_a_quarter_lower_quality">"Q4（4 分の 1、品質低め）"</string>
+    <string name="convert_to">"変換形式"</string>
+    <string name="source_s" formatted="false">"元 %s"</string>
+    <string name="civitai_is_a_separate_website_its">"Civitai は別のウェブサイトです。利用規約により 18 歳以上のみ利用でき、米国の訪問者向けで、各モデルには個別のライセンスがあります（Civitai のモデルページで確認）。18 歳以上の場合のみ続けてください。"</string>
+    <string name="i_am_18_or_older">"18 歳以上です"</string>
+    <string name="no_usable_safetensors_file_in_s" formatted="false">"%s に使える .safetensors がありません。"</string>
+    <string name="download_s_d_mb_by_s" formatted="false">"%s（%d MB、%s）をダウンロードしてスマホで変換しますか? 完了後この模型を選びます。"</string>
+    <string name="models_2">"モデル"</string>
+    <string name="fine_tunes_of_this_model_the">"このモデルの微調整モデルです。選んだファイルをダウンロードしてスマホで変換します（変換中はファイルの 2 倍の容量が必要。量子化する場合は量子化モデル＋元のモデルの大きさ）。Hugging Face はログイン不要のファイルのみ。"</string>
+    <string name="no_model_to_draw_with_download">"描画に使えるモデルがありません。設定 → モデル管理 でダウンロードしてください。"</string>
+    <string name="s_the_fine_tunes_need_its" formatted="false">"%s: ファインチューンにはテキストエンコーダーと VAE が必要です。設定 → モデル管理 で %s をダウンロードしてください（「内蔵モデルを含める」を外すとエンコーダーと VAE だけ）。"</string>
+    <string name="no_model_to_draw_with_bring">"描画に使えるモデルがありません。ファインチューンを取り込む（拡張モード → モデル横の歯車）か、標準モデルを再ダウンロードしてください。"</string>
+    <string name="delete_an_imported_model">"取り込んだモデルを削除"</string>
+    <string name="pick_what_to_save_save_button">"選んで保存（保存ボタン）"</string>
+    <string name="save_every_picture_automatically">"すべて自動保存"</string>
+    <string name="saving_pictures">"画像の保存"</string>
+    <string name="you_can_change_this_in_settings">"設定で変更できます。"</string>
+    <string name="in_use_2">"使用中"</string>
+    <string name="use_the_built_in_model">"標準モデルを使う"</string>
+    <string name="use_this_model">"このモデルを使う"</string>
+    <string name="imported_models">"取り込んだモデル"</string>
+    <string name="used_in_extended_mode">"拡張モードで使用"</string>
+    <string name="lora_merged_into_the_weights_made">"LoRA を合成した重み、必要時に再作成"</string>
+    <string name="prepared_copies">"作成済みのコピー"</string>
+    <string name="unfinished_downloads_and_conversions">"未完了のダウンロードと変換"</string>
+    <string name="d_items" formatted="false">"%d 件"</string>
+    <string name="unfinished_files">"未完了のファイル"</string>
+    <string name="free_on_this_phone_s" formatted="false">"空き容量: %s"</string>
+    <string name="nothing_besides_the_model_packs">"モデルパック以外はありません。"</string>
+    <string name="imported_models_loras_and_other_files">"取り込んだモデル・LoRA・その他"</string>
+    <string name="tap_an_item_to_use_or">"項目をタップして使用・削除。"</string>
+    <string name="none_saved_yet">"保存したプリセットはありません。"</string>
+    <string name="read_from_a_picture">"画像から読み込む"</string>
+    <string name="save_the_current_one">"今の内容を保存"</string>
+    <string name="negative_prompt_used_when_cfg_1">"ネガティブプロンプト（拡張設定で CFG を 1 より大きくすると適用）"</string>
+    <string name="temperatures_shown">"温度表示: オン"</string>
+    <string name="temperatures_hidden">"温度表示: オフ"</string>
+    <string name="stop_after_the_current_block_the">"停止: 今のブロックが終わり次第（そのステップは破棄）"</string>
+    <string name="stop_at_the_end_of_the">"停止: 今のステップが終わったら"</string>
+    <string name="diagnosis_log_on_slower_for_a">"診断ログ: オン（遅くなります。不具合報告用）"</string>
+    <string name="diagnosis_log_off">"診断ログ: オフ"</string>
+    <string name="node_graph_on">"ノードグラフ: オン"</string>
+    <string name="node_graph_off">"ノードグラフ: オフ"</string>
+    <string name="this_model_samples_in_its_own">"このモデルは決まった独自の方式でサンプリングします（YuE2 は曲モデル独自の方式）。サンプラー設定はほかのモデルで使えます。"</string>
+    <string name="these_apply_to_moss_image_turbo">"MOSS-Image に適用されます。「Turbo 8 steps」と「Turbo 4 steps」は HaDeS ターボ（モデルに載せる LoRA、Euler・shift 5・CFG 1 固定。8 ステップの方がきれいで、4 ステップは約 2 倍速い）。他は公開された元のモデル（SFT やその微調整）をそのまま動かすもので、通常 CFG 3・shift 5・20〜50 ステップです。CFG が 1 より大きいとステップごとにモデルを 2 回計算します。"</string>
+    <string name="these_apply_to_krea_2_the">"Krea 2 に適用されます。スケジューラーの「Krea Turbo」はターボモデルの蒸留に使ったスケジュールです。Krea 2 Turbo はこのスケジュール・Euler・CFG 1 で蒸留されており、他の選択肢はターボでない Krea 2（raw）用か試し用です。CFG を 1 より大きくすると 1 ステップで 2 回計算します。"</string>
+    <string name="these_apply_to_anima_a_turbo">"Anima に適用されます。ターボモデルは既定値（ER-SDE、simple）に合わせて蒸留されており、変えると通常は品質が落ちます。他の選択肢はターボでない微調整モデル向けです。"</string>
+    <string name="turbo_8_steps">"ターボ 8 ステップ"</string>
+    <string name="turbo_4_steps">"ターボ 4 ステップ"</string>
+    <string name="settings_read_from_the_picture_s" formatted="false">"画像の設定を読み込みました: %s"</string>
+    <string name="split_in_parts">"分割"</string>
+    <string name="not_readable_yet">"未対応"</string>
+    <string name="prompt">"プロンプト"</string>
+    <string name="negative">"ネガティブ"</string>
+    <string name="size_2">"サイズ"</string>
+    <string name="start_image">"開始画像"</string>
+    <string name="vae_encode">"VAE エンコード"</string>
+    <string name="vae_decode">"VAE デコード"</string>
+    <string name="upscale_2_2">"×2 アップスケール"</string>
+    <string name="image">"画像"</string>
+    <string name="add_an_image_node">"保存ノードを追加してください。"</string>
+    <string name="the_image_node_needs_a_vae">"保存の前に VAE デコードが必要です。"</string>
+    <string name="vae_decode_needs_a_sampler">"VAE デコードにサンプラーが必要です。"</string>
+    <string name="the_sampler_needs_a_model">"サンプラーにモデルが必要です。"</string>
+    <string name="the_sampler_needs_a_prompt">"サンプラーにプロンプトが必要です。"</string>
+    <string name="vae_encode_needs_a_start_image">"VAE エンコードに開始画像が必要です。"</string>
+    <string name="basis_krea_2_community_license_4">"根拠：Krea 2 Community License 第 4.2 条および Krea の利用ポリシー。全文：設定 → ライセンスと告知。"</string>
+    <string name="basis_the_law_and_the_circlestone">"根拠：法律、および児童性的虐待コンテンツを禁止する CircleStone Non-Commercial License 第 4(a)(iv) 条。全文：設定 → ライセンスと告知。"</string>
+    <string name="basis_the_law_child_sexual_abuse">"根拠：法律（児童性的虐待コンテンツ）"</string>
+    <string name="basis_kroma_s_own_age_setting">"根拠：モデルのライセンスではなく、Kroma 独自の年齢設定です。成人が設定でオンにすると、成人向けコンテンツがそのまま表示されます。"</string>
+    <string name="picture_discarded_minor">"画像を破棄しました。\n理由：判別モデルが成人向けと判定し（スコア %1$.2f）、プロンプトに未成年を指す表現があります。利用ポリシーにより、未成年が登場する性的コンテンツは禁止されています。\n"</string>
+    <string name="picture_blurred_adult">"画像をぼかして表示し、保存しませんでした。\n理由：判別モデルが成人向けと判定しました（スコア %1$.2f、基準 %2$.2f）。"</string>
+    <string name="adult_setting_can_turn_off">"成人向けコンテンツ自体は禁止対象ではないため、成人は設定でこの制限をオフにできます。"</string>
+    <string name="classifier_can_be_wrong">"判別結果は誤っている場合があります。\n"</string>
+    <string name="models_not_published">"このスマホの NPU（%1$s）向けモデルはまだ公開されていません。"</string>
+    <string name="anima_size_rule">"Anima：辺は 16 の倍数、合計 %1$s トークン（1 トークン 16×16 ピクセル）以下にしてください"</string>
+    <string name="encoder">"テキストエンコーダー: "</string>
+    <string name="download_through_the_hf_mirror">"hf-mirror.com から取得"</string>
+    <string name="tap_the_arrow_for_options">"モデルの ▾ を押すと、重みの形式（FP16・Q8・Q4）などの設定が開きます。内蔵モデルを入れずに VAE とエンコーダーだけを取得し、設定 → 拡張モードからファインチューンだけを使うこともできます。"</string>
+    <string name="waiting_for_the_npu">"NPU がまだ開けません。%1$s 秒後にもう一度試します…"</string>
+</resources>

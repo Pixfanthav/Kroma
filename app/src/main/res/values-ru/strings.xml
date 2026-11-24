@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Русский
+     %1$s, %2$s ... are values the app fills in; keep them, in any order. Licence wording is not in these files:
+     it is shown in English in every language. -->
+<resources>
+    <string name="i_have_read_and_agree">"Я прочитал(а) и принимаю изложенное выше."</string>
+    <string name="continue_button">"Продолжить"</string>
+    <string name="krea_2_turbo_unquantized_fp16">"Модели изображений в форматах fp16, Q8, Q4 и других — только на NPU этого телефона. Ничто из введённого и созданного не покидает устройство; сеть нужна только для загрузки файлов моделей."</string>
+    <string name="before_you_start">"Перед началом"</string>
+    <string name="terms_english_only">"Условия ниже показаны только на английском."</string>
+    <string name="read_the_full_license_and">"Полный текст лицензии и уведомлений"</string>
+    <string name="this_app">"Это приложение"</string>
+    <string name="kroma_is_free_software_under">"Kroma — свободное ПО под лицензией GNU General Public License v3."</string>
+    <string name="models_and_components">"Модели и компоненты"</string>
+    <string name="krea_2_model_license">"Лицензия модели Krea 2"</string>
+    <string name="krea_ai_s_license_for">"Лицензия Krea.ai на модель Krea 2. Она относится к модели, а не к исходному коду приложения."</string>
+    <string name="anima_model_license">"Лицензия модели Anima"</string>
+    <string name="circlestone_labs_license_for_the">"Лицензия CircleStone Labs на модель Anima. Она относится к модели, а не к исходному коду приложения."</string>
+    <string name="this_phone_s_chip_is">"Чип этого телефона, %1$s, не поддерживается. Kroma работает на Snapdragon с NPU Hexagon v73, v75, v79 или v81: 8 Gen 2, 8s Gen 3, 7+ Gen 3 (v73), 8 Gen 3 (v75), 8 Elite (v79) и 8 Elite Gen 5 (v81). Движок собирается отдельно для каждого поколения NPU."</string>
+    <string name="send_the_log">"Отправить журнал"</string>
+    <string name="download_on_wi_fi_only">"Загружать только по Wi-Fi"</string>
+    <string name="free_storage">"Свободно %1$s"</string>
+    <string name="to_download_free_storage">"К загрузке %1$s  ·  свободно %2$s"</string>
+    <string name="get_the_model_list">"Получить список моделей"</string>
+    <string name="download">"Загрузить %1$s"</string>
+    <string name="apply">"Применить"</string>
+    <string name="done">"Готово"</string>
+    <string name="downloaded">"Загружено · "</string>
+    <string name="not_downloaded">"Не загружено · "</string>
+    <string name="delete">"Удалить"</string>
+    <string name="delete_from_this_phone">"Удалить %1$s с телефона?"</string>
+    <string name="frees_it_can_be_downloaded">"Освободится %1$s. Позже можно загрузить снова."</string>
+    <string name="cancel">"Отмена"</string>
+    <string name="models_pick_at_least_one">"МОДЕЛИ  ·  выберите хотя бы одну"</string>
+    <string name="options">"ДОПОЛНЕНИЯ"</string>
+    <string name="always_included">"ОБЯЗАТЕЛЬНЫЕ ЗАГРУЗКИ"</string>
+    <string name="shared_files">"Общие файлы"</string>
+    <string name="reading_the_model_list">"Чтение списка моделей…"</string>
+    <string name="failed">"Ошибка: "</string>
+    <string name="not_on_wi_fi">"Нет подключения по Wi-Fi."</string>
+    <string name="remove_from_this_phone">"Удалить с телефона?"</string>
+    <string name="frees_they_can_be_downloaded">"Освободится %1$s. Позже можно загрузить снова."</string>
+    <string name="remove">"Удалить"</string>
+    <string name="pause">"Пауза"</string>
+    <string name="not_enough_storage_to_download">"Недостаточно места: нужно загрузить %1$s, свободно %2$s."</string>
+    <string name="about_min_left">" · осталось около %1$s мин"</string>
+    <string name="models_are_ready">"Модели готовы"</string>
+    <string name="paused_press_again_to_resume">"Пауза. Нажмите ещё раз, чтобы продолжить с того же места."</string>
+    <string name="models">"Модели"</string>
+    <string name="beta">"  ·  бета"</string>
+    <string name="kroma_downloads_the_unquantized_fp16">"Kroma скачивает модели. Загрузка продолжается после обрыва, каждый файл проверяется."</string>
+    <string name="back">"Назад"</string>
+    <string name="describe_the_picture_in_english">"Опишите картинку на английском или переведите описание"</string>
+    <string name="length">"Длина %1$s / %2$s"</string>
+    <string name="length_too_long_the_end">"Длина %1$s / %2$s · слишком длинно: конец не попадёт в картинку"</string>
+    <string name="steps">"Шаги %1$s"</string>
+    <string name="seed">"Сид"</string>
+    <string name="much_slower_if_the_screen">"Если экран заблокируется во время работы, будет намного медленнее"</string>
+    <string name="sending_the_log_helps_even">"Отправка журнала помогает, даже если всё прошло хорошо: в нём время работы, а не ваш промпт. Нажмите, чтобы отправить."</string>
+    <string name="generate">"Создать"</string>
+    <string name="stopping_after_this_block">"Остановка после этого блока…"</string>
+    <string name="write_a_prompt_first">"Сначала введите промпт."</string>
+    <string name="is_not_runnable_in_this">"%1$s пока не запускается в этой сборке."</string>
+    <string name="share">"Поделиться"</string>
+    <string name="upscale_2">"Увеличить ×2"</string>
+    <string name="settings">"Настройки"</string>
+    <string name="aspect_ratio">"Соотношение сторон"</string>
+    <string name="m_s">"%1$s мин %2$s с"</string>
+    <string name="s">"%1$s с"</string>
+    <string name="stop">"Стоп"</string>
+    <string name="battery_at_stopped_charge_the">"Заряд %1$s%%. Остановлено: зарядите телефон и запустите снова."</string>
+    <string name="picture">"Картинка %1$s/%2$s · "</string>
+    <string name="step_about_left">"шаг %1$s/%2$s · %3$s%% · осталось около %4$s"</string>
+    <string name="stopped_nothing_saved_under_half">"Остановлено. Ничего не сохранено: выполнено меньше половины шагов."</string>
+    <string name="decoding">"Декодирование…"</string>
+    <string name="done_in_seed">"Готово за %1$s · сид %2$s"</string>
+    <string name="stopped">"Остановлено."</string>
+    <string name="play_the_song">"Воспроизвести песню"</string>
+    <string name="stop_the_song">"Остановить воспроизведение"</string>
+    <string name="error">"Ошибка: "</string>
+    <string name="nsettings_send_the_log">"\nНастройки → Отправить журнал."</string>
+    <string name="picture_s_saved">"Сохранено картинок: %1$s"</string>
+    <string name="upscaling">"Увеличение %1$s/%2$s"</string>
+    <string name="upscaled_to">"Увеличено до %1$s×%2$s"</string>
+    <string name="adult_content_on">"Контент для взрослых: вкл."</string>
+    <string name="adult_content_off">"Контент для взрослых: выкл."</string>
+    <string name="language">"Язык"</string>
+    <string name="license_and_notices">"Лицензия и уведомления"</string>
+    <string name="year_of_birth">"Год рождения"</string>
+    <string name="i_am_an_adult">"Я совершеннолетний(яя)."</string>
+    <string name="show_adult_content">"Показывать контент для взрослых"</string>
+    <string name="next">"Далее"</string>
+    <string name="enter_your_year_of_birth">"Введите год рождения."</string>
+    <string name="this_is_available_to_adults">"Доступно только совершеннолетним."</string>
+    <string name="tick_i_am_an_adult">"Отметьте «Я совершеннолетний(яя)»."</string>
+    <string name="confirm">"Подтверждение"</string>
+    <string name="pictures_the_classifier_rates_as">"Картинки, которые классификатор относит к контенту для взрослых, будут показываться и сохраняться. Контент с участием несовершеннолетних остаётся заблокированным. Ответственность за созданное несёте вы."</string>
+    <string name="turn_on">"Включить"</string>
+    <string name="preparing">"Подготовка…"</string>
+    <string name="progress">"Ход работы"</string>
+    <string name="kroma_is_working">"Kroma работает"</string>
+    <string name="prompt_too_long_only_the">"Промпт слишком длинный: используются только первые %1$s из %2$s токенов"</string>
+    <string name="prompt_refused_nreason_it_combines">"Промпт отклонён.\nПричина: в нём несовершеннолетний сочетается с сексуальным содержанием. Правила запрещают сексуальный контент с участием несовершеннолетних без исключений.\n"</string>
+    <string name="ratio_not_available">"Это соотношение сторон недоступно для %1$s."</string>
+    <string name="save">"Сохранить"</string>
+    <string name="save_n">"Сохранить все (%1$s)"</string>
+    <string name="saved_to_gallery">"Сохранено в Pictures/Kroma: %1$s."</string>
+    <string name="not_saved_yet">"Ещё не сохранено: нажмите «Сохранить», чтобы оставить картинку."</string>
+    <string name="picture_s_ready">"Готово картинок: %1$s"</string>
+    <string name="auto_save_on">"Автосохранение в галерею: вкл."</string>
+    <string name="auto_save_off">"Автосохранение в галерею: выкл."</string>
+    <string name="uninstall_deletes_models">"Модели хранятся внутри приложения. При удалении Kroma они тоже удаляются."</string>
+    <string name="free_memory">"Свободная память %1$s"</string>
+    <string name="close_other_apps">"Закрыть другие приложения"</string>
+    <string name="memory_freed">"Свободная память %1$s → %2$s"</string>
+    <string name="more_memory_is_faster">"Чем больше свободной памяти, тем большая часть модели остаётся загруженной и тем быстрее идёт генерация."</string>
+    <string name="lora_off">"LoRA: нет"</string>
+    <string name="lora_on">"LoRA: %1$s · %2$s"</string>
+    <string name="no_lora">"Без LoRA"</string>
+    <string name="add_a_lora_file">"Добавить файл LoRA"</string>
+    <string name="lora_help">"Выберите файл LoRA .safetensors для модели, выбранной на главном экране. Он преобразуется на этом телефоне. Удерживайте название, чтобы удалить."</string>
+    <string name="converting_the_lora">"Преобразование LoRA…"</string>
+    <string name="preparing_the_lora">"Подготовка LoRA…"</string>
+    <string name="lora_added">"LoRA добавлена: %1$s · слоёв: %2$s"</string>
+    <string name="lora_left_out">" · неприменимых слоёв пропущено: %1$s"</string>
+    <string name="lora_plain_only">"этот формат LoRA нельзя преобразовать на телефоне."</string>
+    <string name="report_this_picture">"Пожаловаться на картинку"</string>
+    <string name="report_include_prompt">"Приложить мой промпт"</string>
+    <string name="report_what_is_sent">"Используйте, если модель создала то, чего не должна была. Готовится короткий текст с моделью, размером, шагами, сидом и оценкой фильтра содержимого; куда его отправить, выбираете вы. Сама картинка не прикладывается."</string>
+    <string name="find_a_lora">"Найти LoRA в сети"</string>
+    <string name="lora_browse_help">"LoRA для этой модели с Civitai или Hugging Face. Нажмите, чтобы скачать и преобразовать. У каждой своя лицензия и условия использования: см. её страницу."</string>
+    <string name="search">"Поиск"</string>
+    <string name="searching">"Поиск…"</string>
+    <string name="nothing_found">"Ничего не найдено."</string>
+    <string name="more">"Ещё"</string>
+    <string name="sort_downloads">"По скачиваниям"</string>
+    <string name="sort_rating">"По оценке"</string>
+    <string name="sort_newest">"Новые"</string>
+    <string name="lora_hit_line">"Скачиваний: %1$d · %2$d МБ · %3$s"</string>
+    <string name="lora_download_ask">"Скачать %1$d МБ и преобразовать на этом телефоне? Автор: %2$s."</string>
+    <string name="lora_downloading">"Загрузка LoRA: %1$d / %2$d МБ"</string>
+    <string name="lora_needs_login">"автор требует входа в Civitai для этого файла. Скачайте его в браузере и добавьте через «Добавить файл LoRA»."</string>
+    <string name="open_the_page">"Открыть страницу"</string>
+    <string name="download_it">"Скачать"</string>
+    <string name="lora_login_needed">"нужен вход"</string>
+    <string name="civitai_key">"Ключ API Civitai"</string>
+    <string name="civitai_key_off">"Ключ API Civitai: не задан"</string>
+    <string name="civitai_key_on">"Ключ API Civitai: задан"</string>
+    <string name="civitai_key_hint">"Ключ API"</string>
+    <string name="civitai_key_help">"Некоторые авторы разрешают скачивание только вошедшим пользователям. Создайте ключ API в настройках аккаунта Civitai и вставьте его сюда: тогда такие файлы тоже будут скачиваться в приложении. Ключ хранится только на этом телефоне и отправляется только на civitai.com. Чтобы удалить ключ, очистите поле."</string>
+    <string name="picture_shown_as_is">"Картинка показана как есть. Чтобы оставить её, нажмите «Сохранить»."</string>
+    <string name="advanced_off">"Расширенный режим: выкл."</string>
+    <string name="advanced_on">"Расширенный режим: вкл."</string>
+    <string name="advanced_settings">"Расширенные настройки"</string>
+    <string name="adv_help">"Настройки для модели на экране. Значения по умолчанию рисуют так же, как без этого режима."</string>
+    <string name="adv_sampler">"Сэмплер"</string>
+    <string name="adv_scheduler">"Планировщик"</string>
+    <string name="adv_shift">"Shift %1$s"</string>
+    <string name="adv_cfg">"CFG %1$s"</string>
+    <string name="adv_cfg_help">"Больше 1: используется негативный промпт ниже, и на каждом шаге модель запускается дважды, поэтому картинка делается примерно вдвое дольше. Anima Turbo рассчитана на 1."</string>
+    <string name="adv_reset">"Сбросить"</string>
+    <!-- moved from the code's inline translations (2026-11-20) -->
+    <string name="krea_turbo">"Krea Turbo"</string>
+    <string name="reference_pictures_edit_d" formatted="false">"Образцы (правка): %d"</string>
+    <string name="reference_pictures_edit_none_up_to">"Образцы (правка): нет (до 3)"</string>
+    <string name="start_image_set">"Начальное изображение: есть"</string>
+    <string name="start_image_none_text_to_image">"Начальное изображение: нет (текст в изображение)"</string>
+    <string name="no_model_on_this_phone_yet">"На телефоне ещё нет модели. Скачайте её, чтобы рисовать."</string>
+    <string name="download_models">"Скачать модели"</string>
+    <string name="lyrics_in_parts_marked_verse_chorus">"Текст песни ([Verse], [Chorus], [Bridge]…)"</string>
+    <string name="original">"Оригинал"</string>
+    <string name="translate">"Перевести"</string>
+    <string name="the_translation_model_is_not_installed">"Модель перевода не установлена: Настройки → Модели → Перевод (PLaMo)."</string>
+    <string name="translating_the_prompt_plamo">"Перевод запроса (PLaMo)…"</string>
+    <string name="fixed">"Фикс."</string>
+    <string name="a_song_style_above_lyrics_below">"Песня: стиль сверху, текст снизу"</string>
+    <string name="style_tags_e_g_pop_female">"Теги стиля, напр. pop, female vocal, piano, upbeat"</string>
+    <string name="pictures">"Картинок"</string>
+    <string name="presets">"Пресеты"</string>
+    <string name="stopping_at_the_end_of_this">"Остановка в конце этого шага…"</string>
+    <string name="write_the_style_or_the_lyrics">"Сначала напишите стиль или текст песни."</string>
+    <string name="mask_painted">"Маска: есть"</string>
+    <string name="mask_none_the_whole_picture">"Маска: нет, всё изображение"</string>
+    <string name="mode_outpaint">"Режим: outpaint"</string>
+    <string name="mode_inpaint">"Режим: inpaint"</string>
+    <string name="change_s" formatted="false">"Степень изменения: %s"</string>
+    <string name="auto_2">"Авто"</string>
+    <string name="t_30_s">"30 с"</string>
+    <string name="t_1_min">"1 мин"</string>
+    <string name="t_2_min">"2 мин"</string>
+    <string name="t_3_min">"3 мин"</string>
+    <string name="t_4_min">"4 мин"</string>
+    <string name="length_of_an_instrumental_a_song">"Длина инструментала (с текстом — по тексту)"</string>
+    <string name="songs">"Песен"</string>
+    <string name="use_as_start">"Как начальное"</string>
+    <string name="this_picture_is_the_reference_now">"Картинка стала образцом: напишите, что изменить"</string>
+    <string name="this_picture_is_the_start_image">"Картинка стала начальной (img2img)"</string>
+    <string name="battery">"батарея"</string>
+    <string name="no_kroma_settings_in_that_picture">"В этой картинке нет настроек Kroma (сделана не здесь или пересохранена)."</string>
+    <string name="sdxl_1_0_license_creativeml_open">"Лицензия SDXL 1.0 (CreativeML Open RAIL++-M)"</string>
+    <string name="flux_2_klein_9b_license_flux">"Лицензия FLUX.2 [klein] 9B (FLUX Non-Commercial License)"</string>
+    <string name="plamo_community_license_translation">"Лицензия PLaMo Community (перевод)"</string>
+    <string name="s_has_a_hexagon_npu_but" formatted="false">"У %s есть NPU Hexagon, но меньше, чем у 8 Gen 2 того же поколения (меньше быстрой памяти, fp16 в матричном блоке может быть отключён). Движок Kroma пока может на нём не работать. Лог покажет, что именно есть у этого чипа, — это нужно для поддержки."</string>
+    <string name="ui_preview_debug_build_nothing_is">"Предпросмотр интерфейса (отладочная сборка, изображения не создаются)"</string>
+    <string name="include_the_built_in_model_untick">"Встроенная модель (снимите, если нужны только свои дообученные)"</string>
+    <string name="q8_about_half_the_size_close">"Q8 (около половины размера, близко к FP16)"</string>
+    <string name="q4_about_a_quarter_lower_quality">"Q4 (около четверти размера, качество ниже)"</string>
+    <string name="fp16_as_made_default">"FP16 (как есть, по умолчанию)"</string>
+    <string name="weights">"Веса: "</string>
+    <string name="press_the_button_below_to_read">"Нажмите кнопку ниже, чтобы получить список моделей."</string>
+    <string name="later">"Позже"</string>
+    <string name="brush_s" formatted="false">"Кисть: %s"</string>
+    <string name="small">"мал."</string>
+    <string name="medium">"сред."</string>
+    <string name="large">"бол."</string>
+    <string name="eraser">"Ластик"</string>
+    <string name="paint">"Кисть"</string>
+    <string name="paint_over_what_to_redraw">"Закрасьте то, что нужно перерисовать."</string>
+    <string name="clear">"Очистить"</string>
+    <string name="no_mask">"Без маски"</string>
+    <string name="ui_preview_this_phone_cannot_run">"Предпросмотр интерфейса: этот телефон не может запускать модели, поэтому изображение не создаётся."</string>
+    <string name="no_model_on_this_phone_yet_2">"На телефоне ещё нет модели: сначала скачайте её кнопкой вверху или в настройках."</string>
+    <string name="merging_the_lora_into_the_weights" formatted="false">"LoRA вливается в веса: блок %d из %d"</string>
+    <string name="reading_the_start_image">"Чтение начального изображения"</string>
+    <string name="reading_the_reference_pictures">"Чтение образцов…"</string>
+    <string name="writing_the_score">"Пишется партитура"</string>
+    <string name="composing">"Сочинение"</string>
+    <string name="rendering_the_sound">"Синтез звука"</string>
+    <string name="decoding_the_audio">"Декодирование звука"</string>
+    <string name="done_s_seed_d_saved_to_2" formatted="false">"Готово за %s · сид %d · сохранено в Music/Kroma"</string>
+    <string name="translated_by_plamo_s" formatted="false">"Перевод PLaMo: %s"</string>
+    <string name="saved">"Сохранено"</string>
+    <string name="fit_to_screen">"Вписать в экран"</string>
+    <string name="start_over">"Сначала"</string>
+    <string name="the_graph_can_t_be_changed">"Пока идёт задача, граф менять нельзя."</string>
+    <string name="model">"Модель"</string>
+    <string name="fine_tune_imported">"Импортированная модель"</string>
+    <string name="built_in">"Встроенная"</string>
+    <string name="strength_1_0_as_made">"Сила (1.0 = как есть)"</string>
+    <string name="width">"Ширина"</string>
+    <string name="height">"Высота"</string>
+    <string name="multiples_of_16_area_at_most" formatted="false">"Кратно 16. Площадь не больше %d×%d (Krea 1024×1024, SDXL 1,5 Мп)."</string>
+    <string name="steps_2">"Шаги"</string>
+    <string name="seed_empty_random">"Сид (пусто: случайный)"</string>
+    <string name="last">"Последний"</string>
+    <string name="denoise_with_vae_encode">"Denoise (с VAE-энкодом)"</string>
+    <string name="sampler">"Сэмплер"</string>
+    <string name="scheduler">"Планировщик"</string>
+    <string name="choose_a_picture">"Выбрать изображение"</string>
+    <string name="another_picture">"Другое изображение"</string>
+    <string name="clear_2">"Очистить"</string>
+    <string name="the_picture_appears_here_once_one">"Здесь появится картинка после генерации."</string>
+    <string name="no_settings">"Нет настроек."</string>
+    <string name="size_sides_in_multiples_of_16" formatted="false">"Размер: стороны кратны 16, площадь не больше %d×%d%s."</string>
+    <string name="sdxl_d_d_fits" formatted="false">" (SDXL: подходит %d×%d)"</string>
+    <string name="vae_encode_this_phone_has_no" formatted="false">"VAE-энкодер: нет энкодера для %d×%d (используйте размеры приложения)."</string>
+    <string name="lora_d_together" formatted="false">"LoRA: %d шт."</string>
+    <string name="not_sorted">"Без категории"</string>
+    <string name="name">"Название"</string>
+    <string name="rank">"Ранг"</string>
+    <string name="layers">"Слоёв"</string>
+    <string name="trained">"Обучение"</string>
+    <string name="size">"Размер"</string>
+    <string name="trigger_words_which_follow_it_into">"Триггеры (входят в промпт вместе с LoRA)"</string>
+    <string name="trigger_words_tap_to_add">"Триггеры (нажмите, чтобы добавить)"</string>
+    <string name="most_used_tags_tap_to_add">"частые теги, нажмите, чтобы добавить"</string>
+    <string name="group">"Группа"</string>
+    <string name="note">"Заметка"</string>
+    <string name="in_use">"Используются"</string>
+    <string name="no_lora_on_this_phone_yet">"На телефоне пока нет LoRA."</string>
+    <string name="pick_a_safetensors_or_gguf_file">"Выберите файл .safetensors или .gguf."</string>
+    <string name="s_is_not_read_by_the" formatted="false">"%s пока не поддерживается."</string>
+    <string name="not_enough_space_d_gb_needed" formatted="false">"Мало места: нужно %d ГБ, свободно %d ГБ."</string>
+    <string name="could_not_open_the_file">"Не удалось открыть файл."</string>
+    <string name="stop_2">"Стоп"</string>
+    <string name="converting_s" formatted="false">"Преобразование %s…"</string>
+    <string name="converting_s_block_d_of_d" formatted="false">"Преобразование %s: блок %d из %d"</string>
+    <string name="s_is_ready_and_chosen_for" formatted="false">"%s готова и выбрана для %s (расширенные настройки, модель)."</string>
+    <string name="stopped_2">"Остановлено."</string>
+    <string name="could_not_get_it_ready_s" formatted="false">"Не удалось подготовить: %s"</string>
+    <string name="downloading_s_d_d_mb" formatted="false">"Загрузка %s: %d / %d МБ"</string>
+    <string name="bring_in_a_model">"Добавить модель"</string>
+    <string name="an_anima_krea_2_moss_image">"Дообученная Anima, Krea 2 или MOSS-Image в .safetensors преобразуется на телефоне для движка. Преобразованная модель занимает примерно размер файла (Q8 — половину, Q4 — четверть); скачанная из сети хранит загрузку до конца преобразования, так что на это время нужно примерно вдвое больше. Текстовый энкодер и VAE остаются встроенными. Модели без турбо нужны больше шагов (обычно 20–30) и свои настройки сэмплера."</string>
+    <string name="import_a_model_file">"Импорт файла модели"</string>
+    <string name="find_a_model_online">"Найти модель в сети"</string>
+    <string name="as_they_run_nothing_written">"На лету (без записи файлов)"</string>
+    <string name="baked_copy_kept_fast_again_next">"Запекание, копия хранится (быстрее потом, занимает место)"</string>
+    <string name="baked_copy_removed_after">"Запекание, копия удаляется после"</string>
+    <string name="lora_method_s" formatted="false">"Способ LoRA: %s"</string>
+    <string name="lora_method">"Способ LoRA"</string>
+    <string name="recommended">"лучший"</string>
+    <string name="none_of_its_files_is_in" formatted="false">"Нет файлов в поддерживаемом формате: %s"</string>
+    <string name="fp16_as_made">"fp16 (как есть)"</string>
+    <string name="q8_half_the_size">"Q8 (вдвое меньше)"</string>
+    <string name="q4_a_quarter_lower_quality">"Q4 (вчетверо меньше, хуже)"</string>
+    <string name="convert_to">"Формат"</string>
+    <string name="source_s" formatted="false">"исходник %s"</string>
+    <string name="civitai_is_a_separate_website_its">"Civitai — отдельный сайт. По его условиям пользоваться им можно с 18 лет, он предназначен для посетителей из США, а у каждой модели своя лицензия (см. страницу модели на Civitai). Продолжайте, только если вам есть 18 лет."</string>
+    <string name="i_am_18_or_older">"Мне есть 18 лет"</string>
+    <string name="no_usable_safetensors_file_in_s" formatted="false">"В %s нет подходящего файла .safetensors."</string>
+    <string name="download_s_d_mb_by_s" formatted="false">"Скачать %s (%d МБ, %s) и преобразовать на телефоне? Затем она будет выбрана."</string>
+    <string name="models_2">"Модели"</string>
+    <string name="fine_tunes_of_this_model_the">"Дообученные версии этой модели. Файл скачивается и преобразуется на телефоне (на время преобразования нужно вдвое больше места; при квантовании — квантованная модель плюс исходная). С Hugging Face — только файлы без входа."</string>
+    <string name="no_model_to_draw_with_download">"Нет модели для генерации: скачайте её в Настройки → Модели."</string>
+    <string name="s_the_fine_tunes_need_its" formatted="false">"%s: дообученным моделям нужны её текстовый энкодер и VAE. В Настройки → Модели скачайте %s (снимите «Встроенная модель», чтобы взять только энкодер и VAE)."</string>
+    <string name="no_model_to_draw_with_bring">"Нет модели для генерации: импортируйте дообученную модель (расширенный режим → шестерёнка рядом с моделью) или скачайте встроенную заново."</string>
+    <string name="delete_an_imported_model">"Удалить импортированную модель"</string>
+    <string name="pick_what_to_save_save_button">"Сохранять выбранное (кнопка «Сохранить»)"</string>
+    <string name="save_every_picture_automatically">"Сохранять всё автоматически"</string>
+    <string name="saving_pictures">"Сохранение картинок"</string>
+    <string name="you_can_change_this_in_settings">"Это можно изменить в настройках."</string>
+    <string name="in_use_2">"используется"</string>
+    <string name="use_the_built_in_model">"Встроенная модель"</string>
+    <string name="use_this_model">"Использовать эту модель"</string>
+    <string name="imported_models">"Импортированные модели"</string>
+    <string name="used_in_extended_mode">"в расширенном режиме"</string>
+    <string name="lora_merged_into_the_weights_made">"веса с LoRA, создаются заново"</string>
+    <string name="prepared_copies">"Подготовленные копии"</string>
+    <string name="unfinished_downloads_and_conversions">"Незавершённые загрузки и преобразования"</string>
+    <string name="d_items" formatted="false">"%d шт."</string>
+    <string name="unfinished_files">"незавершённые файлы"</string>
+    <string name="free_on_this_phone_s" formatted="false">"Свободно: %s"</string>
+    <string name="nothing_besides_the_model_packs">"Кроме пакетов моделей ничего нет."</string>
+    <string name="imported_models_loras_and_other_files">"Импортированные модели, LoRA и прочее"</string>
+    <string name="tap_an_item_to_use_or">"Нажмите на элемент, чтобы выбрать или удалить."</string>
+    <string name="none_saved_yet">"Сохранённых пресетов нет."</string>
+    <string name="read_from_a_picture">"Взять из картинки"</string>
+    <string name="save_the_current_one">"Сохранить текущее"</string>
+    <string name="negative_prompt_used_when_cfg_1">"Негативный промпт (действует при CFG &gt; 1 в расширенных настройках)"</string>
+    <string name="temperatures_shown">"Температура: вкл."</string>
+    <string name="temperatures_hidden">"Температура: выкл."</string>
+    <string name="stop_after_the_current_block_the">"Стоп: после текущего блока (шаг теряется)"</string>
+    <string name="stop_at_the_end_of_the">"Стоп: в конце шага"</string>
+    <string name="diagnosis_log_on_slower_for_a">"Журнал диагностики: вкл. (медленнее, для отчёта)"</string>
+    <string name="diagnosis_log_off">"Журнал диагностики: выкл."</string>
+    <string name="node_graph_on">"Граф узлов: вкл."</string>
+    <string name="node_graph_off">"Граф узлов: выкл."</string>
+    <string name="this_model_samples_in_its_own">"Эта модель сэмплирует своим фиксированным способом (YuE2 — способом самой музыкальной модели). Настройки сэмплера применяются к другим моделям."</string>
+    <string name="these_apply_to_moss_image_turbo">"Для MOSS-Image. «Turbo 8 steps» и «Turbo 4 steps» — турбо HaDeS (LoRA поверх модели; Euler, shift 5, CFG 1 фиксированы; 8 шагов чище, 4 примерно вдвое быстрее). Остальные запускают модель как выпущена (SFT или её дообучение): обычно CFG 3, shift 5, 20–50 шагов. CFG больше 1 считает модель дважды за шаг."</string>
+    <string name="these_apply_to_krea_2_the">"Для Krea 2. «Krea Turbo» в планировщике — расписание, на котором дистиллировали турбо-модель. Krea 2 Turbo дистиллирована под Euler на нём с CFG 1: прочее — для не-турбо Krea 2 (raw) или для проб. CFG больше 1 считает модель дважды за шаг."</string>
+    <string name="these_apply_to_anima_a_turbo">"Для Anima. Турбо-модель дистиллирована под настройки по умолчанию (ER-SDE, simple): другие обычно ухудшают её и нужны для дообученных моделей без турбо."</string>
+    <string name="turbo_8_steps">"Турбо 8 шагов"</string>
+    <string name="turbo_4_steps">"Турбо 4 шага"</string>
+    <string name="settings_read_from_the_picture_s" formatted="false">"Настройки из картинки: %s"</string>
+    <string name="split_in_parts">"по частям"</string>
+    <string name="not_readable_yet">"пока не читается"</string>
+    <string name="prompt">"Промпт"</string>
+    <string name="negative">"Негатив"</string>
+    <string name="size_2">"Размер"</string>
+    <string name="start_image">"Начальное изображение"</string>
+    <string name="vae_encode">"VAE энкод."</string>
+    <string name="vae_decode">"VAE декод."</string>
+    <string name="upscale_2_2">"Увеличение ×2"</string>
+    <string name="image">"Изображение"</string>
+    <string name="add_an_image_node">"Добавьте узел «Сохранить»."</string>
+    <string name="the_image_node_needs_a_vae">"Перед сохранением нужен VAE-декодер."</string>
+    <string name="vae_decode_needs_a_sampler">"VAE-декодеру нужен сэмплер."</string>
+    <string name="the_sampler_needs_a_model">"Сэмплеру нужна модель."</string>
+    <string name="the_sampler_needs_a_prompt">"Сэмплеру нужен промпт."</string>
+    <string name="vae_encode_needs_a_start_image">"VAE-энкодеру нужно начальное изображение."</string>
+    <string name="basis_krea_2_community_license_4">"Основание: Krea 2 Community License, §4.2, и правила использования Krea. Полный текст: Настройки → Лицензии и уведомления."</string>
+    <string name="basis_the_law_and_the_circlestone">"Основание: закон и CircleStone Non-Commercial License, §4(a)(iv), запрещающая материалы сексуального насилия над детьми. Полный текст: Настройки → Лицензии и уведомления."</string>
+    <string name="basis_the_law_child_sexual_abuse">"Основание: закон (материалы сексуального насилия над детьми)"</string>
+    <string name="basis_kroma_s_own_age_setting">"Основание: не лицензия модели, а собственная возрастная настройка Kroma. Если взрослый включит её в настройках, контент для взрослых показывается как есть."</string>
+    <string name="picture_discarded_minor">"Изображение удалено.\nПричина: классификатор оценил его как контент для взрослых (оценка %1$.2f), а в запросе есть указание на несовершеннолетнего. Правила запрещают сексуальный контент с участием несовершеннолетних.\n"</string>
+    <string name="picture_blurred_adult">"Изображение размыто и не сохранено.\nПричина: классификатор оценил его как контент для взрослых (оценка %1$.2f, порог %2$.2f). "</string>
+    <string name="adult_setting_can_turn_off">"Контент для взрослых сам по себе не запрещён: взрослые могут отключить это ограничение в настройках. "</string>
+    <string name="classifier_can_be_wrong">"Классификатор может ошибаться.\n"</string>
+    <string name="models_not_published">"Модели для NPU этого телефона (%1$s) ещё не опубликованы."</string>
+    <string name="anima_size_rule">"Anima: стороны кратны 16, всего не больше %1$s токенов (по 16×16 пикселей)"</string>
+    <string name="encoder">"Текстовый энкодер: "</string>
+    <string name="download_through_the_hf_mirror">"Загружать через hf-mirror.com"</string>
+    <string name="tap_the_arrow_for_options">"Нажмите ▾ у модели, чтобы увидеть её параметры, например формат весов (FP16, Q8, Q4). Можно не скачивать встроенную модель, а взять только VAE и энкодеры и подключить дообученные модели в Настройки → Расширенный режим."</string>
+    <string name="waiting_for_the_npu">"NPU пока не открылся. Повтор через %1$s с…"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the app's background from the first frame on (the platform's grey showed for a moment before the screen was drawn) -->
+    <color name="kroma_bg">#16171B</color>
+    <style name="Kroma" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/kroma_bg</item>
+        <item name="android:colorBackground">@color/kroma_bg</item>
+        <item name="android:statusBarColor">@color/kroma_bg</item>
+        <item name="android:navigationBarColor">@color/kroma_bg</item>
+    </style>
+</resources>

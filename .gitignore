@@ -1,0 +1,15 @@
+.gradle/
+build/
+app/build/
+local.properties
+app/src/main/jniLibs/
+*.apk
+*.log
+app/src/debug/
+
+__pycache__/
+
+# the release key and its passwords
+keystore.properties
+*.jks
+*.keystore

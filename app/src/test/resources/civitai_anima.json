@@ -1,0 +1,319 @@
+{
+ "items": [
+  {
+   "id": 2560840,
+   "name": "Anima Turbo LoRA",
+   "nsfw": false,
+   "creator": {
+    "username": "circlestone_labs"
+   },
+   "stats": {
+    "downloadCount": 73832
+   },
+   "modelVersions": [
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "anima-turbo-lora-v0.2.safetensors",
+       "sizeKB": 145412.7109375,
+       "downloadUrl": "https://civitai.com/api/download/models/2979642"
+      }
+     ]
+    },
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "anima-turbo-lora-v0.1.safetensors",
+       "sizeKB": 145412.7109375,
+       "downloadUrl": "https://civitai.com/api/download/models/2877687"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 929497,
+   "name": "Aesthetic Quality Modifiers - Masterpiece",
+   "nsfw": false,
+   "creator": {
+    "username": "motimalu"
+   },
+   "stats": {
+    "downloadCount": 170437
+   },
+   "modelVersions": [
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "anima-base-1-masterpiece-v51.safetensors",
+       "sizeKB": 135412.28125,
+       "downloadUrl": "https://civitai.com/api/download/models/2961717"
+      }
+     ]
+    },
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "anima-preview-3-masterpieces-v5.safetensors",
+       "sizeKB": 145412.7109375,
+       "downloadUrl": "https://civitai.com/api/download/models/2905490"
+      }
+     ]
+    },
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "anima-preview2-masterpieces-e50.safetensors",
+       "sizeKB": 140030.296875,
+       "downloadUrl": "https://civitai.com/api/download/models/2787072"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2540444,
+   "name": "Anima Highres/Aesthetic Boost",
+   "nsfw": false,
+   "creator": {
+    "username": "circlestone_labs"
+   },
+   "stats": {
+    "downloadCount": 42441
+   },
+   "modelVersions": [
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "anima-highres-aesthetic-boost.safetensors",
+       "sizeKB": 135412.28125,
+       "downloadUrl": "https://civitai.com/api/download/models/2855073"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2620171,
+   "name": "Anima Detail Tweaker",
+   "nsfw": false,
+   "creator": {
+    "username": "lse14"
+   },
+   "stats": {
+    "downloadCount": 32465
+   },
+   "modelVersions": [
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "anima_context_detailer_base10.safetensors",
+       "sizeKB": 89698.6328125,
+       "downloadUrl": "https://civitai.com/api/download/models/2945421"
+      }
+     ]
+    },
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "rendering_detailer_base10-000400.safetensors",
+       "sizeKB": 89698.625,
+       "downloadUrl": "https://civitai.com/api/download/models/2947492"
+      }
+     ]
+    },
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "background_detailer_v1-step00000200.safetensors",
+       "sizeKB": 89699.484375,
+       "downloadUrl": "https://civitai.com/api/download/models/3026718"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2364703,
+   "name": "RDBT | Anima [lora]",
+   "nsfw": false,
+   "creator": {
+    "username": "reakaakasky"
+   },
+   "stats": {
+    "downloadCount": 23251
+   },
+   "modelVersions": [
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "rdbt_v2.1_base_anima_b1_lora.safetensors",
+       "sizeKB": 94330.71875,
+       "downloadUrl": "https://civitai.com/api/download/models/3255350"
+      }
+     ]
+    },
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "rdbt_v2.1_distillation_addon_anima_b1_lora.safetensors",
+       "sizeKB": 94330.71875,
+       "downloadUrl": "https://civitai.com/api/download/models/3255370"
+      }
+     ]
+    },
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "rdbt_v2.0_base_anima_b1_lora.safetensors",
+       "sizeKB": 94330.71875,
+       "downloadUrl": "https://civitai.com/api/download/models/3197254"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 723360,
+   "name": "AI styles dump (Anima/Illustrious/RouWei/Noob)",
+   "nsfw": false,
+   "creator": {
+    "username": "bakariso"
+   },
+   "stats": {
+    "downloadCount": 73058
+   },
+   "modelVersions": [
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "mixed_styles_anima_sorted_v6.txt",
+       "sizeKB": 1.1201171875,
+       "downloadUrl": "https://civitai.com/api/download/models/3334415?type=Other"
+      },
+      {
+       "name": "mixed_styles_anima-base1_v6.safetensors",
+       "sizeKB": 181942.1328125,
+       "downloadUrl": "https://civitai.com/api/download/models/3334415"
+      }
+     ]
+    },
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "mixed_styles_anima-base1_v5.safetensors",
+       "sizeKB": 181919.1484375,
+       "downloadUrl": "https://civitai.com/api/download/models/2960448"
+      },
+      {
+       "name": "mixed_styles_anima_v5.1_sorted.zip",
+       "sizeKB": 0.78515625,
+       "downloadUrl": "https://civitai.com/api/download/models/2960448?type=Training%20Data"
+      }
+     ]
+    },
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "anima_artists_v4.zip",
+       "sizeKB": 0.7666015625,
+       "downloadUrl": "https://civitai.com/api/download/models/2856394?type=Training%20Data"
+      },
+      {
+       "name": "mixed_styles_anima_preview3_v4.safetensors",
+       "sizeKB": 181878.3203125,
+       "downloadUrl": "https://civitai.com/api/download/models/2856394"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "name": "adult entry",
+   "nsfw": true,
+   "creator": {
+    "username": "a"
+   },
+   "stats": {
+    "downloadCount": 9
+   },
+   "modelVersions": [
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "a.safetensors",
+       "sizeKB": 1000,
+       "downloadUrl": "https://civitai.com/api/download/models/1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "other model",
+   "nsfw": false,
+   "creator": {
+    "username": "b"
+   },
+   "stats": {
+    "downloadCount": 9
+   },
+   "modelVersions": [
+    {
+     "baseModel": "SD 1.5",
+     "files": [
+      {
+       "name": "b.safetensors",
+       "sizeKB": 1000,
+       "downloadUrl": "https://civitai.com/api/download/models/2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "whole model",
+   "nsfw": false,
+   "creator": {
+    "username": "c"
+   },
+   "stats": {
+    "downloadCount": 9
+   },
+   "modelVersions": [
+    {
+     "baseModel": "Anima",
+     "files": [
+      {
+       "name": "c.safetensors",
+       "sizeKB": 3000000,
+       "downloadUrl": "https://civitai.com/api/download/models/3"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "metadata": {
+  "nextCursor": "20"
+ }
+}

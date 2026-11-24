@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Español. Translated by the author, not checked by a native speaker: corrections are welcome.
+     %1$s, %2$s ... are values the app fills in; keep them, in any order. Licence wording is not in these files:
+     it is shown in English in every language. -->
+<resources>
+    <string name="i_have_read_and_agree">"He leído y acepto lo anterior."</string>
+    <string name="continue_button">"Continuar"</string>
+    <string name="krea_2_turbo_unquantized_fp16">"Modelos de imagen en fp16, Q8, Q4 y otros formatos, ejecutados solo en la NPU de este teléfono. Nada de lo que escribes o generas sale del dispositivo; la red solo se usa para descargar los archivos de los modelos."</string>
+    <string name="before_you_start">"Antes de empezar"</string>
+    <string name="terms_english_only">"Los términos de abajo se muestran solo en inglés."</string>
+    <string name="read_the_full_license_and">"Leer las licencias y avisos completos"</string>
+    <string name="this_app">"Esta app"</string>
+    <string name="kroma_is_free_software_under">"Kroma es software libre bajo la GNU General Public License v3."</string>
+    <string name="models_and_components">"Modelos y componentes"</string>
+    <string name="krea_2_model_license">"Licencia del modelo Krea 2"</string>
+    <string name="krea_ai_s_license_for">"La licencia de Krea.ai para el modelo Krea 2. Se aplica al modelo, no al código fuente de esta app."</string>
+    <string name="anima_model_license">"Licencia del modelo Anima"</string>
+    <string name="circlestone_labs_license_for_the">"La licencia de CircleStone Labs para el modelo Anima. Se aplica al modelo, no al código fuente de esta app."</string>
+    <string name="this_phone_s_chip_is">"El chip de este teléfono, %1$s, no es compatible. Kroma funciona en chips Snapdragon con NPU Hexagon v73, v75, v79 o v81: 8 Gen 2, 8s Gen 3, 7+ Gen 3 (v73), 8 Gen 3 (v75), 8 Elite (v79) y 8 Elite Gen 5 (v81). El motor se compila por separado para cada generación de NPU."</string>
+    <string name="send_the_log">"Enviar el registro"</string>
+    <string name="download_on_wi_fi_only">"Descargar solo con Wi-Fi"</string>
+    <string name="free_storage">"Espacio libre %1$s"</string>
+    <string name="to_download_free_storage">"Por descargar %1$s  ·  espacio libre %2$s"</string>
+    <string name="get_the_model_list">"Obtener la lista de modelos"</string>
+    <string name="download">"Descargar %1$s"</string>
+    <string name="apply">"Aplicar"</string>
+    <string name="done">"Hecho"</string>
+    <string name="downloaded">"Descargado · "</string>
+    <string name="not_downloaded">"Sin descargar · "</string>
+    <string name="delete">"Borrar"</string>
+    <string name="delete_from_this_phone">"¿Borrar %1$s de este teléfono?"</string>
+    <string name="frees_it_can_be_downloaded">"Libera %1$s. Se puede volver a descargar más tarde."</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="models_pick_at_least_one">"MODELOS  ·  elige al menos uno"</string>
+    <string name="options">"OPCIONES"</string>
+    <string name="always_included">"DESCARGAS NECESARIAS"</string>
+    <string name="shared_files">"Archivos compartidos"</string>
+    <string name="reading_the_model_list">"Cargando la lista de modelos…"</string>
+    <string name="failed">"Error: "</string>
+    <string name="not_on_wi_fi">"No hay conexión Wi-Fi."</string>
+    <string name="remove_from_this_phone">"¿Quitar de este teléfono?"</string>
+    <string name="frees_they_can_be_downloaded">"Libera %1$s. Se pueden volver a descargar más tarde."</string>
+    <string name="remove">"Quitar"</string>
+    <string name="pause">"Pausar"</string>
+    <string name="not_enough_storage_to_download">"No hay espacio suficiente: hay que descargar %1$s y quedan %2$s libres."</string>
+    <string name="about_min_left">" · quedan unos %1$s min"</string>
+    <string name="models_are_ready">"Los modelos están listos"</string>
+    <string name="paused_press_again_to_resume">"En pausa. Pulsa de nuevo para seguir donde se quedó."</string>
+    <string name="models">"Modelos"</string>
+    <string name="beta">"  ·  beta"</string>
+    <string name="kroma_downloads_the_unquantized_fp16">"Kroma descarga los modelos. Las descargas se reanudan si se interrumpen y cada archivo se verifica."</string>
+    <string name="back">"Atrás"</string>
+    <string name="describe_the_picture_in_english">"Describe la imagen en inglés o tradúcela"</string>
+    <string name="length">"Longitud %1$s / %2$s"</string>
+    <string name="length_too_long_the_end">"Longitud %1$s / %2$s · demasiado largo: el final no llegará a la imagen"</string>
+    <string name="steps">"Pasos %1$s"</string>
+    <string name="seed">"Semilla"</string>
+    <string name="much_slower_if_the_screen">"Mucho más lento si la pantalla se bloquea mientras se ejecuta"</string>
+    <string name="sending_the_log_helps_even">"Enviar el registro ayuda aunque todo haya ido bien: contiene los tiempos, no tu prompt. Toca para enviarlo."</string>
+    <string name="generate">"Generar"</string>
+    <string name="stopping_after_this_block">"Se detendrá al terminar este bloque…"</string>
+    <string name="write_a_prompt_first">"Escribe primero un prompt."</string>
+    <string name="is_not_runnable_in_this">"%1$s aún no se puede ejecutar en esta versión."</string>
+    <string name="share">"Compartir"</string>
+    <string name="upscale_2">"Ampliar ×2"</string>
+    <string name="settings">"Ajustes"</string>
+    <string name="aspect_ratio">"Relación de aspecto"</string>
+    <string name="m_s">"%1$s min %2$s s"</string>
+    <string name="s">"%1$s s"</string>
+    <string name="stop">"Detener"</string>
+    <string name="battery_at_stopped_charge_the">"Batería al %1$s%%. Detenido: carga el teléfono y vuelve a empezar."</string>
+    <string name="picture">"Imagen %1$s/%2$s · "</string>
+    <string name="step_about_left">"paso %1$s/%2$s · %3$s%% · quedan unos %4$s"</string>
+    <string name="stopped_nothing_saved_under_half">"Detenido. No se guardó nada: se hizo menos de la mitad de los pasos."</string>
+    <string name="decoding">"Decodificando…"</string>
+    <string name="done_in_seed">"Hecho en %1$s · semilla %2$s"</string>
+    <string name="stopped">"Detenido."</string>
+    <string name="play_the_song">"Reproducir la canción"</string>
+    <string name="stop_the_song">"Detener la reproducción"</string>
+    <string name="error">"Error: "</string>
+    <string name="nsettings_send_the_log">"\nAjustes → Enviar el registro."</string>
+    <string name="picture_s_saved">"%1$s imagen(es) guardada(s)"</string>
+    <string name="upscaling">"Ampliando %1$s/%2$s"</string>
+    <string name="upscaled_to">"Ampliada a %1$s×%2$s"</string>
+    <string name="adult_content_on">"Contenido para adultos: activado"</string>
+    <string name="adult_content_off">"Contenido para adultos: desactivado"</string>
+    <string name="language">"Idioma"</string>
+    <string name="license_and_notices">"Licencias y avisos"</string>
+    <string name="year_of_birth">"Año de nacimiento"</string>
+    <string name="i_am_an_adult">"Soy mayor de edad."</string>
+    <string name="show_adult_content">"Mostrar contenido para adultos"</string>
+    <string name="next">"Siguiente"</string>
+    <string name="enter_your_year_of_birth">"Introduce tu año de nacimiento."</string>
+    <string name="this_is_available_to_adults">"Solo disponible para mayores de edad."</string>
+    <string name="tick_i_am_an_adult">"Marca \"Soy mayor de edad\"."</string>
+    <string name="confirm">"Confirmar"</string>
+    <string name="pictures_the_classifier_rates_as">"Las imágenes que el clasificador califique como contenido para adultos también se mostrarán y guardarán. El contenido con menores sigue bloqueado. Eres responsable de lo que generes."</string>
+    <string name="turn_on">"Activar"</string>
+    <string name="preparing">"Preparando…"</string>
+    <string name="progress">"Progreso"</string>
+    <string name="kroma_is_working">"Kroma está trabajando"</string>
+    <string name="prompt_too_long_only_the">"Prompt demasiado largo: solo se usan los primeros %1$s de %2$s tokens"</string>
+    <string name="prompt_refused_nreason_it_combines">"Prompt rechazado.\nMotivo: combina a un menor con contenido sexual. La política prohíbe sin excepción el contenido sexual con menores.\n"</string>
+    <string name="ratio_not_available">"Esta relación de aspecto no está disponible para %1$s."</string>
+    <string name="save">"Guardar"</string>
+    <string name="save_n">"Guardar todas (%1$s)"</string>
+    <string name="saved_to_gallery">"%1$s imagen(es) guardada(s) en Pictures/Kroma."</string>
+    <string name="not_saved_yet">"Aún no se ha guardado: pulsa Guardar para conservarla."</string>
+    <string name="picture_s_ready">"%1$s imagen(es) lista(s)"</string>
+    <string name="auto_save_on">"Guardar en la galería automáticamente: activado"</string>
+    <string name="auto_save_off">"Guardar en la galería automáticamente: desactivado"</string>
+    <string name="uninstall_deletes_models">"Los modelos se guardan dentro de la app. Al desinstalar Kroma también se borran."</string>
+    <string name="free_memory">"Memoria libre %1$s"</string>
+    <string name="close_other_apps">"Cerrar otras apps"</string>
+    <string name="memory_freed">"Memoria libre %1$s → %2$s"</string>
+    <string name="more_memory_is_faster">"Con más memoria libre, más parte del modelo se queda cargada y las imágenes salen más rápido."</string>
+    <string name="lora_off">"LoRA: desactivada"</string>
+    <string name="lora_on">"LoRA: %1$s · %2$s"</string>
+    <string name="no_lora">"Sin LoRA"</string>
+    <string name="add_a_lora_file">"Añadir un archivo LoRA"</string>
+    <string name="lora_help">"Elige una LoRA .safetensors hecha para el modelo que se ve en la pantalla principal. Se convierte en este teléfono. Mantén pulsado un nombre para borrarla."</string>
+    <string name="converting_the_lora">"Convirtiendo la LoRA…"</string>
+    <string name="preparing_the_lora">"Preparando la LoRA…"</string>
+    <string name="lora_added">"LoRA añadida: %1$s · %2$s capas"</string>
+    <string name="lora_left_out">" · %1$s no aplicables, omitidas"</string>
+    <string name="lora_plain_only">"este formato de LoRA no se puede convertir en el teléfono."</string>
+    <string name="report_this_picture">"Denunciar esta imagen"</string>
+    <string name="report_include_prompt">"Incluir mi prompt"</string>
+    <string name="report_what_is_sent">"Úsalo cuando el modelo haya hecho algo que no debía. Se prepara un texto breve con el modelo, el tamaño, los pasos, la semilla y la puntuación del filtro de contenido; tú eliges adónde enviarlo. La imagen no se adjunta."</string>
+    <string name="find_a_lora">"Buscar una LoRA en línea"</string>
+    <string name="lora_browse_help">"LoRAs de Civitai o Hugging Face para este modelo. Toca una para descargarla y convertirla. Cada una tiene su propia licencia y condiciones de uso: consulta su página."</string>
+    <string name="search">"Buscar"</string>
+    <string name="searching">"Buscando…"</string>
+    <string name="nothing_found">"No se encontró nada."</string>
+    <string name="more">"Más"</string>
+    <string name="sort_downloads">"Más descargadas"</string>
+    <string name="sort_rating">"Mejor valoradas"</string>
+    <string name="sort_newest">"Más recientes"</string>
+    <string name="lora_hit_line">"%1$d descargas · %2$d MB · %3$s"</string>
+    <string name="lora_download_ask">"¿Descargar %1$d MB y convertirlo en este teléfono? De %2$s."</string>
+    <string name="lora_downloading">"Descargando la LoRA: %1$d / %2$d MB"</string>
+    <string name="lora_needs_login">"el autor exige iniciar sesión en Civitai para este archivo. Descárgalo en un navegador y usa \"Añadir un archivo LoRA\"."</string>
+    <string name="open_the_page">"Abrir la página"</string>
+    <string name="download_it">"Descargar"</string>
+    <string name="lora_login_needed">"requiere iniciar sesión"</string>
+    <string name="civitai_key">"Clave API de Civitai"</string>
+    <string name="civitai_key_off">"Clave API de Civitai: sin configurar"</string>
+    <string name="civitai_key_on">"Clave API de Civitai: configurada"</string>
+    <string name="civitai_key_hint">"Clave API"</string>
+    <string name="civitai_key_help">"Algunos autores solo permiten descargar a usuarios con sesión iniciada. Crea una clave API en los ajustes de tu cuenta de Civitai y pégala aquí; así esos archivos también se descargan en la app. La clave se guarda en este teléfono y solo se envía a civitai.com. Deja el campo vacío para quitarla."</string>
+    <string name="picture_shown_as_is">"La imagen se muestra tal cual. Usa Guardar para conservarla."</string>
+    <string name="advanced_off">"Modo ampliado: desactivado"</string>
+    <string name="advanced_on">"Modo ampliado: activado"</string>
+    <string name="advanced_settings">"Ajustes ampliados"</string>
+    <string name="adv_help">"Ajustes para el modelo seleccionado. Los valores por defecto dibujan igual que con este modo desactivado."</string>
+    <string name="adv_sampler">"Sampler"</string>
+    <string name="adv_scheduler">"Planificador"</string>
+    <string name="adv_shift">"Shift %1$s"</string>
+    <string name="adv_cfg">"CFG %1$s"</string>
+    <string name="adv_cfg_help">"Por encima de 1 se usa el prompt negativo de abajo, y cada paso ejecuta el modelo dos veces: una imagen tarda más o menos el doble. Anima Turbo está hecho para 1."</string>
+    <string name="adv_reset">"Restablecer valores por defecto"</string>
+    <!-- moved from the code's inline translations (2026-11-20) -->
+    <string name="krea_turbo">"Krea Turbo"</string>
+    <string name="reference_pictures_edit_d" formatted="false">"Imágenes de referencia (edición): %d"</string>
+    <string name="reference_pictures_edit_none_up_to">"Imágenes de referencia (edición): ninguna (hasta 3)"</string>
+    <string name="start_image_set">"Imagen inicial: puesta"</string>
+    <string name="start_image_none_text_to_image">"Imagen inicial: ninguna (texto a imagen)"</string>
+    <string name="no_model_on_this_phone_yet">"Aún no hay ningún modelo en este teléfono. Descarga uno para empezar a dibujar."</string>
+    <string name="download_models">"Descargar modelos"</string>
+    <string name="lyrics_in_parts_marked_verse_chorus">"Letra, en partes marcadas [Verse], [Chorus], [Bridge]…"</string>
+    <string name="original">"Original"</string>
+    <string name="translate">"Traducir"</string>
+    <string name="the_translation_model_is_not_installed">"El modelo de traducción no está instalado: Ajustes → Modelos → Traducción (PLaMo)."</string>
+    <string name="translating_the_prompt_plamo">"Traduciendo el prompt (PLaMo)…"</string>
+    <string name="fixed">"Fija"</string>
+    <string name="a_song_style_above_lyrics_below">"Una canción: estilo arriba, letra abajo"</string>
+    <string name="style_tags_e_g_pop_female">"Etiquetas de estilo, p. ej. pop, female vocal, piano, upbeat"</string>
+    <string name="pictures">"Imágenes"</string>
+    <string name="presets">"Ajustes guardados"</string>
+    <string name="stopping_at_the_end_of_this">"Se detendrá al terminar este paso…"</string>
+    <string name="write_the_style_or_the_lyrics">"Escribe primero el estilo o la letra."</string>
+    <string name="mask_painted">"Máscara: pintada"</string>
+    <string name="mask_none_the_whole_picture">"Máscara: ninguna, toda la imagen"</string>
+    <string name="mode_outpaint">"Modo: outpaint"</string>
+    <string name="mode_inpaint">"Modo: inpaint"</string>
+    <string name="change_s" formatted="false">"Cambio: %s"</string>
+    <string name="auto_2">"Auto"</string>
+    <string name="t_30_s">"30 s"</string>
+    <string name="t_1_min">"1 min"</string>
+    <string name="t_2_min">"2 min"</string>
+    <string name="t_3_min">"3 min"</string>
+    <string name="t_4_min">"4 min"</string>
+    <string name="length_of_an_instrumental_a_song">"Duración de una instrumental (una canción con letra termina con ella)"</string>
+    <string name="songs">"Canciones"</string>
+    <string name="use_as_start">"Usar como inicial"</string>
+    <string name="this_picture_is_the_reference_now">"Esta imagen es ahora la referencia: escribe qué cambiar"</string>
+    <string name="this_picture_is_the_start_image">"Esta imagen es ahora la imagen inicial (img2img)"</string>
+    <string name="battery">"batería"</string>
+    <string name="no_kroma_settings_in_that_picture">"Esa imagen no tiene ajustes de Kroma (hecha en otra app, o editada y guardada de nuevo)."</string>
+    <string name="sdxl_1_0_license_creativeml_open">"Licencia de SDXL 1.0 (CreativeML Open RAIL++-M)"</string>
+    <string name="flux_2_klein_9b_license_flux">"Licencia de FLUX.2 [klein] 9B (FLUX Non-Commercial License)"</string>
+    <string name="plamo_community_license_translation">"PLaMo Community License (traducción)"</string>
+    <string name="s_has_a_hexagon_npu_but" formatted="false">"%s tiene una NPU Hexagon, pero más pequeña que la del 8 Gen 2, de su misma generación (menos memoria rápida, y el fp16 puede estar desactivado en su unidad de matrices). Puede que el motor de Kroma aún no funcione en él. Enviar el registro dice exactamente qué tiene este chip, que es lo que hace falta para darle soporte."</string>
+    <string name="ui_preview_debug_build_nothing_is">"Vista previa de la interfaz (versión de depuración, no se dibuja nada)"</string>
+    <string name="include_the_built_in_model_untick">"Incluir el modelo integrado (desmárcalo para usar solo los ajustes finos que importes)"</string>
+    <string name="q8_about_half_the_size_close">"Q8 (cerca de la mitad, próximo a FP16)"</string>
+    <string name="q4_about_a_quarter_lower_quality">"Q4 (cerca de un cuarto, menor calidad)"</string>
+    <string name="fp16_as_made_default">"FP16 (tal cual, predeterminado)"</string>
+    <string name="weights">"Pesos: "</string>
+    <string name="press_the_button_below_to_read">"Pulsa el botón de abajo para obtener la lista de modelos."</string>
+    <string name="later">"Más tarde"</string>
+    <string name="brush_s" formatted="false">"Pincel: %s"</string>
+    <string name="small">"pequeño"</string>
+    <string name="medium">"mediano"</string>
+    <string name="large">"grande"</string>
+    <string name="eraser">"Borrador"</string>
+    <string name="paint">"Pintar"</string>
+    <string name="paint_over_what_to_redraw">"Pinta encima de lo que quieras redibujar."</string>
+    <string name="clear">"Borrar"</string>
+    <string name="no_mask">"Sin máscara"</string>
+    <string name="ui_preview_this_phone_cannot_run">"Vista previa de la interfaz: este teléfono no puede ejecutar los modelos, así que no se dibuja nada."</string>
+    <string name="no_model_on_this_phone_yet_2">"Aún no hay ningún modelo en este teléfono: descarga uno primero (con el botón de arriba o en Ajustes)."</string>
+    <string name="merging_the_lora_into_the_weights" formatted="false">"Fusionando la LoRA con los pesos: bloque %d de %d"</string>
+    <string name="reading_the_start_image">"Leyendo la imagen inicial"</string>
+    <string name="reading_the_reference_pictures">"Leyendo las imágenes de referencia…"</string>
+    <string name="writing_the_score">"Escribiendo la partitura"</string>
+    <string name="composing">"Componiendo"</string>
+    <string name="rendering_the_sound">"Generando el audio"</string>
+    <string name="decoding_the_audio">"Decodificando el audio"</string>
+    <string name="done_s_seed_d_saved_to_2" formatted="false">"Hecho en %s · semilla %d · guardado en Music/Kroma"</string>
+    <string name="translated_by_plamo_s" formatted="false">"Traducido por PLaMo: %s"</string>
+    <string name="saved">"Guardado"</string>
+    <string name="fit_to_screen">"Ajustar a la pantalla"</string>
+    <string name="start_over">"Empezar de nuevo"</string>
+    <string name="the_graph_can_t_be_changed">"No se puede cambiar el grafo mientras algo se está ejecutando."</string>
+    <string name="model">"Modelo"</string>
+    <string name="fine_tune_imported">"Ajuste fino (importado)"</string>
+    <string name="built_in">"Integrado"</string>
+    <string name="strength_1_0_as_made">"Intensidad (1.0 = tal como se hizo)"</string>
+    <string name="width">"Ancho"</string>
+    <string name="height">"Alto"</string>
+    <string name="multiples_of_16_area_at_most" formatted="false">"Múltiplos de 16. Área máxima %d×%d para este modelo (Krea 1024×1024, SDXL 1,5 MP)."</string>
+    <string name="steps_2">"Pasos"</string>
+    <string name="seed_empty_random">"Semilla (vacía: aleatoria)"</string>
+    <string name="last">"Última"</string>
+    <string name="denoise_with_vae_encode">"Denoise (con VAE encode)"</string>
+    <string name="sampler">"Sampler"</string>
+    <string name="scheduler">"Planificador"</string>
+    <string name="choose_a_picture">"Elegir una imagen"</string>
+    <string name="another_picture">"Otra imagen"</string>
+    <string name="clear_2">"Quitar"</string>
+    <string name="the_picture_appears_here_once_one">"La imagen aparece aquí cuando se genera."</string>
+    <string name="no_settings">"Sin ajustes."</string>
+    <string name="size_sides_in_multiples_of_16" formatted="false">"Tamaño: lados en múltiplos de 16, área máxima %d×%d para este modelo%s."</string>
+    <string name="sdxl_d_d_fits" formatted="false">" (SDXL: cabe %d×%d)"</string>
+    <string name="vae_encode_this_phone_has_no" formatted="false">"VAE encode: este teléfono no tiene codificador para %d×%d (usa uno de los tamaños de la app)."</string>
+    <string name="lora_d_together" formatted="false">"LoRA: %d juntas"</string>
+    <string name="not_sorted">"Sin clasificar"</string>
+    <string name="name">"Nombre"</string>
+    <string name="rank">"Rango"</string>
+    <string name="layers">"Capas"</string>
+    <string name="trained">"Entrenamiento"</string>
+    <string name="size">"Tamaño"</string>
+    <string name="trigger_words_which_follow_it_into">"Palabras clave (entran en el prompt al activar la LoRA y salen al desactivarla)"</string>
+    <string name="trigger_words_tap_to_add">"Palabras clave (toca para añadir)"</string>
+    <string name="most_used_tags_tap_to_add">"etiquetas más usadas, toca para añadir"</string>
+    <string name="group">"Grupo"</string>
+    <string name="note">"Nota"</string>
+    <string name="in_use">"En uso"</string>
+    <string name="no_lora_on_this_phone_yet">"Aún no hay ninguna LoRA en este teléfono."</string>
+    <string name="pick_a_safetensors_or_gguf_file">"Elige un archivo .safetensors o .gguf."</string>
+    <string name="s_is_not_read_by_the" formatted="false">"El convertidor aún no lee %s."</string>
+    <string name="not_enough_space_d_gb_needed" formatted="false">"No hay espacio suficiente: se necesitan %d GB, hay %d GB libres."</string>
+    <string name="could_not_open_the_file">"No se pudo abrir el archivo."</string>
+    <string name="stop_2">"Detener"</string>
+    <string name="converting_s" formatted="false">"Convirtiendo %s…"</string>
+    <string name="converting_s_block_d_of_d" formatted="false">"Convirtiendo %s: bloque %d de %d"</string>
+    <string name="s_is_ready_and_chosen_for" formatted="false">"%s está listo y elegido para %s (Ajustes ampliados → Modelo)."</string>
+    <string name="stopped_2">"Detenido."</string>
+    <string name="could_not_get_it_ready_s" formatted="false">"No se pudo preparar: %s"</string>
+    <string name="downloading_s_d_d_mb" formatted="false">"Descargando %s: %d / %d MB"</string>
+    <string name="bring_in_a_model">"Importar un modelo"</string>
+    <string name="an_anima_krea_2_moss_image">"Un ajuste fino de Anima, Krea 2, MOSS-Image o FLUX.2 Klein en .safetensors se convierte en el teléfono para el motor. El modelo convertido ocupa más o menos lo que el archivo (Q8 la mitad, Q4 una cuarta parte); uno descargado de internet guarda además la descarga hasta que termina la conversión, así que durante un rato ocupa el doble. El codificador de texto y el VAE siguen siendo los integrados. Un ajuste fino que no es turbo necesita más pasos (a menudo 20-30) y sus propios ajustes de sampler."</string>
+    <string name="import_a_model_file">"Importar un archivo de modelo"</string>
+    <string name="find_a_model_online">"Buscar un modelo en internet"</string>
+    <string name="as_they_run_nothing_written">"Al vuelo (no se escribe ningún archivo)"</string>
+    <string name="baked_copy_kept_fast_again_next">"Integrada, copia guardada (rápida la próxima vez, ocupa espacio)"</string>
+    <string name="baked_copy_removed_after">"Integrada, copia borrada después"</string>
+    <string name="lora_method_s" formatted="false">"Método de LoRA: %s"</string>
+    <string name="lora_method">"Método de LoRA"</string>
+    <string name="recommended">"recomendado"</string>
+    <string name="none_of_its_files_is_in" formatted="false">"Ninguno de sus archivos está en un formato que el convertidor lea todavía: %s"</string>
+    <string name="fp16_as_made">"fp16 (tal como se hizo)"</string>
+    <string name="q8_half_the_size">"Q8 (la mitad del tamaño)"</string>
+    <string name="q4_a_quarter_lower_quality">"Q4 (una cuarta parte, menor calidad)"</string>
+    <string name="convert_to">"Convertir a"</string>
+    <string name="source_s" formatted="false">"origen %s"</string>
+    <string name="civitai_is_a_separate_website_its">"Civitai es un sitio web independiente. Sus términos exigen tener 18 años o más, está pensado para visitantes de Estados Unidos y cada modelo tiene su propia licencia (consulta su página en Civitai). Continúa solo si tienes 18 años o más."</string>
+    <string name="i_am_18_or_older">"Tengo 18 años o más"</string>
+    <string name="no_usable_safetensors_file_in_s" formatted="false">"No hay ningún archivo .safetensors utilizable en %s."</string>
+    <string name="download_s_d_mb_by_s" formatted="false">"¿Descargar %s (%d MB) de %s y convertirlo en este teléfono? Se elegirá para el modelo cuando esté listo."</string>
+    <string name="models_2">"Modelos"</string>
+    <string name="fine_tunes_of_this_model_the">"Ajustes finos de este modelo. El archivo elegido se descarga y se convierte en el teléfono, así que durante la conversión necesita el doble de su tamaño (al cuantizar: el modelo cuantizado más el original). De Hugging Face solo se descargan archivos que no piden iniciar sesión."</string>
+    <string name="no_model_to_draw_with_download">"No hay modelo con el que dibujar: descárgalo en Ajustes → Modelos."</string>
+    <string name="s_the_fine_tunes_need_its" formatted="false">"%s: los ajustes finos necesitan su codificador de texto y su VAE. En Ajustes → Modelos, descarga %s con \"Incluir el modelo integrado\" desmarcado."</string>
+    <string name="no_model_to_draw_with_bring">"No hay modelo con el que dibujar: importa un ajuste fino (el engranaje junto al modelo en el modo ampliado) o vuelve a descargar el integrado."</string>
+    <string name="delete_an_imported_model">"Borrar un modelo importado"</string>
+    <string name="pick_what_to_save_save_button">"Elegir qué guardar (botón Guardar)"</string>
+    <string name="save_every_picture_automatically">"Guardar todas las imágenes automáticamente"</string>
+    <string name="saving_pictures">"Guardado de imágenes"</string>
+    <string name="you_can_change_this_in_settings">"Puedes cambiarlo en Ajustes."</string>
+    <string name="in_use_2">"en uso"</string>
+    <string name="use_the_built_in_model">"Usar el modelo integrado"</string>
+    <string name="use_this_model">"Usar este modelo"</string>
+    <string name="imported_models">"Modelos importados"</string>
+    <string name="used_in_extended_mode">"se usa en el modo ampliado"</string>
+    <string name="lora_merged_into_the_weights_made">"LoRA fusionada con los pesos, se rehace cuando hace falta"</string>
+    <string name="prepared_copies">"Copias preparadas"</string>
+    <string name="unfinished_downloads_and_conversions">"Descargas y conversiones sin terminar"</string>
+    <string name="d_items" formatted="false">"%d elementos"</string>
+    <string name="unfinished_files">"archivos sin terminar"</string>
+    <string name="free_on_this_phone_s" formatted="false">"Libre en este teléfono: %s"</string>
+    <string name="nothing_besides_the_model_packs">"Nada aparte de los paquetes de modelos."</string>
+    <string name="imported_models_loras_and_other_files">"Modelos importados, LoRA y otros archivos"</string>
+    <string name="tap_an_item_to_use_or">"Toca un elemento para usarlo o borrarlo."</string>
+    <string name="none_saved_yet">"Aún no hay ninguno guardado."</string>
+    <string name="read_from_a_picture">"Leer de una imagen"</string>
+    <string name="save_the_current_one">"Guardar los ajustes actuales"</string>
+    <string name="negative_prompt_used_when_cfg_1">"Prompt negativo (se usa cuando CFG &gt; 1, en los ajustes ampliados)"</string>
+    <string name="temperatures_shown">"Temperaturas: visibles"</string>
+    <string name="temperatures_hidden">"Temperaturas: ocultas"</string>
+    <string name="stop_after_the_current_block_the">"Detener: al terminar el bloque actual (se pierde el paso)"</string>
+    <string name="stop_at_the_end_of_the">"Detener: al terminar el paso"</string>
+    <string name="diagnosis_log_on_slower_for_a">"Registro de diagnóstico: activado (más lento; para informar de un fallo)"</string>
+    <string name="diagnosis_log_off">"Registro de diagnóstico: desactivado"</string>
+    <string name="node_graph_on">"Grafo de nodos: activado"</string>
+    <string name="node_graph_off">"Grafo de nodos: desactivado"</string>
+    <string name="this_model_samples_in_its_own">"Este modelo muestrea a su manera fija (YuE2: la del propio modelo de canciones). Los ajustes de sampler se aplican a los demás modelos."</string>
+    <string name="these_apply_to_moss_image_turbo">"Se aplican a MOSS-Image. 'Turbo 8 steps' y 'Turbo 4 steps' son el turbo HaDeS (una LoRA sobre el modelo; Euler, shift 5, CFG 1, todo fijo; 8 pasos dibuja más limpio, 4 es casi el doble de rápido). Los demás ejecutan el modelo tal como se publicó (SFT, o un ajuste fino suyo): normalmente CFG 3, shift 5, 20-50 pasos. Con CFG mayor que 1 el modelo se ejecuta dos veces por paso."</string>
+    <string name="these_apply_to_krea_2_the">"Se aplican a Krea 2. 'Krea Turbo' en el planificador es la programación con la que se destiló el modelo turbo. Krea 2 Turbo está destilado para Euler con ella y CFG 1: las demás opciones son para un Krea 2 que no es turbo (raw), o para probar. Con CFG mayor que 1 el modelo se ejecuta dos veces por paso."</string>
+    <string name="these_apply_to_anima_a_turbo">"Se aplican a Anima. Un modelo turbo está destilado para sus valores por defecto (ER-SDE, simple): las demás opciones son para ajustes finos que no son turbo, y suelen empeorar un modelo turbo."</string>
+    <string name="turbo_8_steps">"Turbo 8 steps"</string>
+    <string name="turbo_4_steps">"Turbo 4 steps"</string>
+    <string name="settings_read_from_the_picture_s" formatted="false">"Ajustes leídos de la imagen: %s"</string>
+    <string name="split_in_parts">"dividido en partes"</string>
+    <string name="not_readable_yet">"aún no compatible"</string>
+    <string name="prompt">"Prompt"</string>
+    <string name="negative">"Negativo"</string>
+    <string name="size_2">"Tamaño"</string>
+    <string name="start_image">"Imagen inicial"</string>
+    <string name="vae_encode">"VAE encode"</string>
+    <string name="vae_decode">"VAE decode"</string>
+    <string name="upscale_2_2">"Ampliar ×2"</string>
+    <string name="image">"Imagen"</string>
+    <string name="add_an_image_node">"Añade un nodo Imagen."</string>
+    <string name="the_image_node_needs_a_vae">"El nodo Imagen necesita un VAE decode delante."</string>
+    <string name="vae_decode_needs_a_sampler">"VAE decode necesita un Sampler."</string>
+    <string name="the_sampler_needs_a_model">"El Sampler necesita un Modelo."</string>
+    <string name="the_sampler_needs_a_prompt">"El Sampler necesita un prompt."</string>
+    <string name="vae_encode_needs_a_start_image">"VAE encode necesita una Imagen inicial."</string>
+    <string name="basis_krea_2_community_license_4">"Base: Krea 2 Community License §4.2 y la política de uso aceptable de Krea. Texto completo: Ajustes → Licencias y avisos."</string>
+    <string name="basis_the_law_and_the_circlestone">"Base: la ley, y la CircleStone Non-Commercial License §4(a)(iv), que prohíbe el material de abuso sexual infantil. Texto completo: Ajustes → Licencias y avisos."</string>
+    <string name="basis_the_law_child_sexual_abuse">"Base: la ley (material de abuso sexual infantil)."</string>
+    <string name="basis_kroma_s_own_age_setting">"Base: el ajuste de edad propio de Kroma, no la licencia del modelo: el contenido para adultos se muestra cuando un adulto lo activa en Ajustes."</string>
+    <string name="picture_discarded_minor">"Imagen descartada.\nMotivo: el clasificador la calificó como contenido para adultos (puntuación %1$.2f) y el prompt hace referencia a un menor. La política prohíbe el contenido sexual con menores.\n"</string>
+    <string name="picture_blurred_adult">"Imagen difuminada y no guardada.\nMotivo: el clasificador la calificó como contenido para adultos (puntuación %1$.2f, umbral %2$.2f). "</string>
+    <string name="adult_setting_can_turn_off">"El contenido para adultos en sí no está prohibido: los adultos pueden desactivar esto en Ajustes. "</string>
+    <string name="classifier_can_be_wrong">"El clasificador puede equivocarse.\n"</string>
+    <string name="models_not_published">"Los modelos para la NPU de este teléfono (%1$s) aún no se han publicado."</string>
+    <string name="anima_size_rule">"Anima: lados en múltiplos de 16, como máximo %1$s tokens (de 16×16 píxeles) en total"</string>
+    <string name="encoder">"Codificador de texto: "</string>
+    <string name="download_through_the_hf_mirror">"Descargar mediante hf-mirror.com"</string>
+    <string name="tap_the_arrow_for_options">"Pulsa ▾ en un modelo para ver sus opciones, como el formato de los pesos (FP16, Q8, Q4). También puedes omitir el modelo integrado, descargar solo el VAE y los codificadores, e importar ajustes finos en Ajustes → Modo extendido."</string>
+    <string name="waiting_for_the_npu">"La NPU aún no se abrió. Se reintenta en %1$s s…"</string>
+</resources>
