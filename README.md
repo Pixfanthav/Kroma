@@ -54,7 +54,7 @@ YuE2 takes much longer for a longer song. Times on a Snapdragon 8 Gen 2 (Galaxy 
 |Song length|Time|
 |---|---|
 |1 min|6 min 35 s|
-|2 min 7 s (instrumental)|17 min 51 s|
+|2 min 7 s|17 min 51 s|
 |2 min 25 s|22 min 58 s|
 |2 min 57 s|38 min 48 s|
 
